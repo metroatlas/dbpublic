@@ -8,7 +8,7 @@ source("sourceAll.R")
 sourceAll()
 
 source("conma.R")
-db <- conma()
 
 # Import US Census 2010
 C_PlaceList_2010()
+C_MetroDelineations_2013()
