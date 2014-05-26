@@ -1,7 +1,7 @@
 dbpublic
 ========
 
-Public database and data import methods for the metropolitan atlas.
+Public database and data import methods for the metropolitan atlas. All datasets used to assemble this database are publicly available.
 
 # How it works
 Open and execute makedb.R in R to compute the metropolitan atlas database.
