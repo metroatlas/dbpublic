@@ -11,5 +11,6 @@ source("conma.R")
 
 # Import US Census 2010
 C_SF1_Counties_2010()
+C_SF1_Places_2010()
 C_PlaceList_2010()
 C_MetroDelineations_2013()

@@ -1,14 +1,15 @@
-C_PlaceList_2010 <- function(){
+C_PlaceList_2010 <- function(d = TRUE){
   Sys.setlocale("LC_ALL", 'en_US.UTF-8')
   
   # Download data
-  fileUrl <- "http://www.census.gov/geo/reference/codes/files/national_places.txt"
-  download.file(fileUrl, destfile="data/C_national_places_2010.txt", method="curl")
-  dateDownloaded <- date()
-  write(dateDownloaded,file="data/C_national_places_2010.txt.date.txt")
+  if(d){
+    fileUrl <- "http://www.census.gov/geo/reference/codes/files/national_places.txt"
+    download.file(fileUrl, destfile="data/C_national_places_2010.txt", method="curl")
+    dateDownloaded <- date()
+    write(dateDownloaded,file="data/C_national_places_2010.txt.date.txt")
+  }
   
   # Load data
-  
   placelist <- read.csv("data/C_national_places_2010.txt",
                         sep="|", header = TRUE,
                         colClasses="character",
@@ -17,7 +18,6 @@ C_PlaceList_2010 <- function(){
   # Transform data
   
   colnames(placelist) <-  tolower(names(placelist))
-  
   butLast <- function(x){head(x, -1)}
   placelist$countyname <- as.character(sapply((sapply(strsplit(placelist$county," "), butLast)) , paste, sep=" "))
   placelist$county <- NULL

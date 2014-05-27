@@ -9,7 +9,7 @@ C_SF1_Counties_2010 <- function() {
                        fileEncoding="UTF-8")
   
   # Transform data
-  counties$D001 <- as.numeric(counties$D001)
+  counties$D001 <- as.integer(counties$D001)
   counties$fips <- counties$GEO.id2
   counties$GEO.id2 <- NULL
   counties$fipsstate <- sapply(counties$fips, substr, start = 1, stop = 2)
@@ -32,11 +32,8 @@ C_SF1_Counties_2010 <- function() {
   colnames(counties)[3] <- "totalpop2010"
   names(counties) <- gsub("\\.","",names(counties))
   
-  counties$totalpop2010 <- as.integer(counties$totalpop2010)
-  
   # Write table
   db <- conma()
   dbWriteTable(db, name="C_SF1_Counties_2010", value=counties, overwrite=TRUE)
   dbDisconnect(db)
-  
 }
