@@ -1,9 +1,11 @@
-C_MetroDelineations_2013 <- function(){
+C_MetroDelineations_2013 <- function(d = TRUE){
   # Download data
-  fileUrl <- "https://www.census.gov/population/metro/files/lists/2013/List1.xls"
-  download.file(fileUrl, destfile="data/C_MetroDelineations_201302.xls", method="curl")
-  dateDownloaded <- date()
-  write(dateDownloaded,file="data/C_MetroDelineations_201302.xls.date.txt")
+  if(d) {
+    fileUrl <- "https://www.census.gov/population/metro/files/lists/2013/List1.xls"
+    download.file(fileUrl, destfile="data/C_MetroDelineations_201302.xls", method="curl")
+    dateDownloaded <- date()
+    write(dateDownloaded,file="data/C_MetroDelineations_201302.xls.date.txt")
+  }
   
   # Load data
   library(xlsx)

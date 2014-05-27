@@ -25,7 +25,7 @@ C_PlaceList_2010 <- function(){
   lastElement <- function(x){x[-1]}
   
   placelist$status  <- as.character(sapply(strsplit(placelist$placename," "), lastElement))
-  placelist$placename <- as.character(sapply((sapply(strsplit(placelist$placename," "), butLast)) , paste, sep=" "))
+  placelist$placename <- as.character(sapply((sapply(strsplit(placelist$placename," "), butLast)) , paste, collapse=" "))
   
   placelist$type <- as.numeric(with(placelist, placelist$type == "Incorporated Place"))
   

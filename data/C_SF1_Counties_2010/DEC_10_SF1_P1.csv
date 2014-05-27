@@ -1,5 +1,4 @@
 GEO.id,GEO.id2,GEO.display-label,D001
-Id,Id2,Geography,Total
 0500000US01001,01001,"Autauga County, Alabama",54571
 0500000US01003,01003,"Baldwin County, Alabama",182265
 0500000US01005,01005,"Barbour County, Alabama",27457
@@ -1802,7 +1801,7 @@ Id,Id2,Geography,Total
 0500000US35007,35007,"Colfax County, New Mexico",13750
 0500000US35009,35009,"Curry County, New Mexico",48376
 0500000US35011,35011,"De Baca County, New Mexico",2022
-0500000US35013,35013,"Doña Ana County, New Mexico",209233
+0500000US35013,35013,"DoÃ±a Ana County, New Mexico",209233
 0500000US35015,35015,"Eddy County, New Mexico",53829
 0500000US35017,35017,"Grant County, New Mexico",29514
 0500000US35019,35019,"Guadalupe County, New Mexico",4687
