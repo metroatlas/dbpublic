@@ -1,4 +1,4 @@
-C_SF1_Counties_2010 <- function() {
+C_SF1_Counties_2010 <- function(d = TRUE) {
   Sys.setlocale("LC_ALL", 'en_US.UTF-8')
   # Data is not dowloadable by script.
   
