@@ -12,8 +12,8 @@ A_CBSA_ByCounty_2010_Export <- function() {
   
   # Reverse HHI to get dilution of power instead of concentration
   co$CBSAhhi  <- 1 - co$CBSAhhi
-  #co$CBSAhhico  <- 1 - co$CBSAhhico
-  #co$CBSAhhipl  <- 1 - co$CBSAhhipl
+  co$CBSAhhico  <- 1 - co$CBSAhhico
+  co$CBSAhhipl  <- 1 - co$CBSAhhipl
   
   # Export data
   write.table(co,

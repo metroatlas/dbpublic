@@ -7,7 +7,7 @@ A_CBSA_ByCounties_2010 <- function() {
   counties  <- dbReadTable(db, "C_SF1_Counties_2010")
   delin     <- dbReadTable(db, "C_MetroDelineations_201302")
   cbsa      <- dbReadTable(db, "A_CBSA_2010")
-  dbDisconnect(con)
+  dbDisconnect(db)
   
   counties <- counties[counties$state != "15" & counties$state != "72", ]
   
