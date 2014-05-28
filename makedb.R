@@ -8,10 +8,9 @@
 # where this file is, to execute it.
 
 # Source all the R files in subdirectories
+source("conma.R")
 source("sourceAll.R")
 sourceAll()
-
-source("conma.R")
 
 # Set TRUE if you want to redownload the data
 # This can be set for each function
