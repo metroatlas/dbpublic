@@ -13,7 +13,7 @@ C_SF1_Places_2010 <- function(d = TRUE) {
   places$fips <- places$GEO.id2
   places$GEO.id2 <- NULL
   places$fipsstate  <- sapply(places$fips, substr, start = 1, stop = 2)
-  places$fipscounty <- sapply(places$fips, substr, start = 3, stop = 7)
+  places$fipsplace <- sapply(places$fips, substr, start = 3, stop = 7)
   
   # Extract only the name of the places
   lastElement <- function(x){tail(x, n=1)}

@@ -13,7 +13,7 @@ sourceAll()
 
 source("conma.R")
 
-# Set if you want to redownload the data
+# Set TRUE if you want to redownload the data
 # This can be set for each function
 d  <-  FALSE
 
@@ -23,6 +23,9 @@ C_SF1_Places_2010(d)
 C_PlaceList_2010(d)
 C_MetroDelineations_2013(d)
 C_CBSA_PrincipalCities_2013(d)
+
+# MDPI
+R_CBSA_MDPI_2007(d)
 
 # Compute data on CBSA (Core-Based Statistical Areas) 2010
 A_CBSA_2010()

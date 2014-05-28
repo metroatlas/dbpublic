@@ -2,5 +2,5 @@
 # Core Based Statistical Area
 # Export relevant csv files
 A_CBSA_2010 <- function() {
-  
+  A_CBSA_HHI_2010()
 }
