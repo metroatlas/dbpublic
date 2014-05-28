@@ -23,3 +23,6 @@ C_SF1_Places_2010(d)
 C_PlaceList_2010(d)
 C_MetroDelineations_2013(d)
 C_CBSA_PrincipalCities_2013(d)
+
+# Compute data on CBSA (Core-Based Statistical Areas) 2010
+A_CBSA_2010()
