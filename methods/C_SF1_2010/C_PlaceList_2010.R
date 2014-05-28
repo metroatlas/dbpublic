@@ -47,7 +47,6 @@ C_PlaceList_2010 <- function(d = TRUE){
   
   placelist$status  <- as.character(sapply(strsplit(placelist$placename," "), lastElement))
   placelist$placename <- as.character(sapply((sapply(strsplit(placelist$placename," "), butLast)) , paste, collapse=" "))
-  
   placelist$type <- as.integer(with(placelist, placelist$type == "Incorporated Place"))
   
   # Change column name for county
