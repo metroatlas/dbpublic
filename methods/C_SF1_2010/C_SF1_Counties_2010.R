@@ -23,10 +23,7 @@ C_SF1_Counties_2010 <- function() {
   counties$statename <- sapply(cnameslist, lastElement)
   cnameslist <- sapply(cnameslist, butLast)
   
-  cnameslist <- sapply(cnameslist, strsplit, split = " ")
-  
-  counties$countyname  <- sapply((sapply(cnameslist, butLast)), paste, collapse = " ")
-  counties$countytype  <- sapply((sapply(cnameslist, lastElement)), paste, collapse = " ")
+  counties$countyname  <- sapply(cnameslist, paste, collapse = " ")
   
   # Change columns names
   colnames(counties)[3] <- "totalpop2010"

@@ -2598,7 +2598,7 @@ CA|06|38646|Kirkwood CDP|Census Designated Place|S|Alpine County, Amador County
 CA|06|38702|Klamath CDP|Census Designated Place|S|Del Norte County
 CA|06|38772|Knightsen CDP|Census Designated Place|S|Contra Costa County
 CA|06|38800|Knights Landing CDP|Census Designated Place|S|Yolo County
-CA|06|39003|La CaÒada Flintridge city|Incorporated Place|A|Los Angeles County
+CA|06|39003|La Ca√±ada Flintridge city|Incorporated Place|A|Los Angeles County
 CA|06|39045|La Crescenta-Montrose CDP|Census Designated Place|S|Los Angeles County
 CA|06|39094|Ladera CDP|Census Designated Place|S|San Mateo County
 CA|06|39108|Ladera Heights CDP|Census Designated Place|S|Los Angeles County
@@ -2981,7 +2981,7 @@ CA|06|57240|Pine Mountain Club CDP|Census Designated Place|S|Kern County
 CA|06|57244|Pine Mountain Lake CDP|Census Designated Place|S|Tuolumne County
 CA|06|57260|Pine Valley CDP|Census Designated Place|S|San Diego County
 CA|06|57288|Pinole city|Incorporated Place|A|Contra Costa County
-CA|06|57302|PiÒon Hills CDP|Census Designated Place|S|San Bernardino County
+CA|06|57302|Pi√±on Hills CDP|Census Designated Place|S|San Bernardino County
 CA|06|57330|Pioneer CDP|Census Designated Place|S|Amador County
 CA|06|57372|Piru CDP|Census Designated Place|S|Ventura County
 CA|06|57414|Pismo Beach city|Incorporated Place|A|San Luis Obispo County
@@ -3505,7 +3505,7 @@ CO|08|10600|Burlington city|Incorporated Place|A|Kit Carson County
 CO|08|10985|Byers CDP|Census Designated Place|S|Arapahoe County
 CO|08|11260|Calhan town|Incorporated Place|A|El Paso County
 CO|08|11645|Campo town|Incorporated Place|A|Baca County
-CO|08|11810|CaÒon City city|Incorporated Place|A|Fremont County
+CO|08|11810|Ca√±on City city|Incorporated Place|A|Fremont County
 CO|08|11975|Capulin CDP|Census Designated Place|S|Conejos County
 CO|08|12045|Carbondale town|Incorporated Place|A|Garfield County
 CO|08|12325|Cascade-Chipita Park CDP|Census Designated Place|S|El Paso County
@@ -22544,7 +22544,7 @@ NM|35|02070|Alcalde CDP|Census Designated Place|S|Rio Arriba County
 NM|35|02210|Algodones CDP|Census Designated Place|S|Sandoval County
 NM|35|03400|Angel Fire village|Incorporated Place|A|Colfax County
 NM|35|03750|Animas CDP|Census Designated Place|S|Hidalgo County
-NM|35|03820|Anthony CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|03820|Anthony CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|03890|Anton Chico CDP|Census Designated Place|S|Guadalupe County
 NM|35|03970|Anzac Village CDP|Census Designated Place|S|Cibola County
 NM|35|04030|Apache Creek CDP|Census Designated Place|S|Catron County
@@ -22560,7 +22560,7 @@ NM|35|06270|Bayard city|Incorporated Place|A|Grant County
 NM|35|06425|Beclabito CDP|Census Designated Place|S|San Juan County
 NM|35|06480|Belen city|Incorporated Place|A|Valencia County
 NM|35|06760|Bent CDP|Census Designated Place|S|Otero County
-NM|35|06830|Berino CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|06830|Berino CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|06970|Bernalillo town|Incorporated Place|A|Sandoval County
 NM|35|07145|Bibo CDP|Census Designated Place|S|Cibola County
 NM|35|07670|Black Rock CDP|Census Designated Place|S|McKinley County
@@ -22574,11 +22574,11 @@ NM|35|08860|Brazos CDP|Census Designated Place|S|Rio Arriba County
 NM|35|09035|Brimhall Nizhoni CDP|Census Designated Place|S|McKinley County
 NM|35|09630|Buckhorn CDP|Census Designated Place|S|Grant County
 NM|35|10050|Caballo CDP|Census Designated Place|S|Sierra County
-NM|35|10470|CaÒada de los Alamos CDP|Census Designated Place|S|Santa Fe County
+NM|35|10470|Ca√±ada de los Alamos CDP|Census Designated Place|S|Santa Fe County
 NM|35|10610|Canjilon CDP|Census Designated Place|S|Rio Arriba County
 NM|35|10750|Cannon AFB CDP|Census Designated Place|S|Curry County
-NM|35|10770|CaÒon CDP|Census Designated Place|S|Sandoval County
-NM|35|11310|CaÒones CDP|Census Designated Place|S|Rio Arriba County
+NM|35|10770|Ca√±on CDP|Census Designated Place|S|Sandoval County
+NM|35|11310|Ca√±ones CDP|Census Designated Place|S|Rio Arriba County
 NM|35|11520|Canova CDP|Census Designated Place|S|Rio Arriba County
 NM|35|11800|Capitan village|Incorporated Place|A|Lincoln County
 NM|35|12008|Gallina CDP|Census Designated Place|S|Rio Arriba County
@@ -22593,11 +22593,11 @@ NM|35|13270|Cedar Grove CDP|Census Designated Place|S|Santa Fe County
 NM|35|13340|Cedar Hill CDP|Census Designated Place|S|San Juan County
 NM|35|13450|Cedro CDP|Census Designated Place|S|Bernalillo County
 NM|35|13970|Chama village|Incorporated Place|A|Rio Arriba County
-NM|35|14040|Chamberino CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|14040|Chamberino CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|14110|Chamisal CDP|Census Designated Place|S|Taos County
 NM|35|14180|Chamita CDP|Census Designated Place|S|Rio Arriba County
 NM|35|14200|Chamizal CDP|Census Designated Place|S|Socorro County
-NM|35|14250|Chaparral CDP|Census Designated Place|S|DoÒa Ana County, Otero County
+NM|35|14250|Chaparral CDP|Census Designated Place|S|Do√±a Ana County, Otero County
 NM|35|14670|Chical CDP|Census Designated Place|S|Valencia County
 NM|35|14810|Chili CDP|Census Designated Place|S|Rio Arriba County
 NM|35|14880|Chilili CDP|Census Designated Place|S|Bernalillo County
@@ -22635,7 +22635,7 @@ NM|35|20270|Deming city|Incorporated Place|A|Luna County
 NM|35|20480|Des Moines village|Incorporated Place|A|Union County
 NM|35|20620|Dexter town|Incorporated Place|A|Chaves County
 NM|35|20830|Dixon CDP|Census Designated Place|S|Rio Arriba County
-NM|35|21110|DoÒa Ana CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|21110|Do√±a Ana CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|21180|Dora village|Incorporated Place|A|Roosevelt County
 NM|35|21390|Dulce CDP|Census Designated Place|S|Rio Arriba County
 NM|35|21810|Duran CDP|Census Designated Place|S|Torrance County
@@ -22660,7 +22660,7 @@ NM|35|25135|Escudilla Bonita CDP|Census Designated Place|S|Catron County
 NM|35|25170|Espanola city|Incorporated Place|A|Rio Arriba County, Santa Fe County
 NM|35|25380|Estancia town|Incorporated Place|A|Torrance County
 NM|35|25450|Eunice city|Incorporated Place|A|Lea County
-NM|35|25590|Fairacres CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|25590|Fairacres CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|25800|Farmington city|Incorporated Place|A|San Juan County
 NM|35|25870|Faywood CDP|Census Designated Place|S|Grant County
 NM|35|26010|Fence Lake CDP|Census Designated Place|S|Cibola County
@@ -22670,7 +22670,7 @@ NM|35|26780|Folsom village|Incorporated Place|A|Union County
 NM|35|27340|Fort Sumner village|Incorporated Place|A|De Baca County
 NM|35|27970|Galisteo CDP|Census Designated Place|S|Santa Fe County
 NM|35|28460|Gallup city|Incorporated Place|A|McKinley County
-NM|35|28670|Garfield CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|28670|Garfield CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|29160|Gila CDP|Census Designated Place|S|Grant County
 NM|35|29540|Glen Acres CDP|Census Designated Place|S|Hidalgo County
 NM|35|29790|Glenwood CDP|Census Designated Place|S|Catron County
@@ -22683,7 +22683,7 @@ NM|35|31190|Hachita CDP|Census Designated Place|S|Grant County
 NM|35|31330|Hagerman town|Incorporated Place|A|Chaves County
 NM|35|31540|Hanover CDP|Census Designated Place|S|Grant County
 NM|35|31680|Happy Valley CDP|Census Designated Place|S|Eddy County
-NM|35|31820|Hatch village|Incorporated Place|A|DoÒa Ana County
+NM|35|31820|Hatch village|Incorporated Place|A|Do√±a Ana County
 NM|35|32100|Hernandez CDP|Census Designated Place|S|Rio Arriba County
 NM|35|32148|Highland Meadows CDP|Census Designated Place|S|Valencia County
 NM|35|32160|High Rolls CDP|Census Designated Place|S|Otero County
@@ -22720,17 +22720,17 @@ NM|35|37875|Lake Sumner CDP|Census Designated Place|S|De Baca County
 NM|35|37910|Lake Valley CDP|Census Designated Place|S|San Juan County
 NM|35|38330|La Luz CDP|Census Designated Place|S|Otero County
 NM|35|38470|La Madera CDP|Census Designated Place|S|Rio Arriba County
-NM|35|38680|La Mesa CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|38680|La Mesa CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|38820|La Mesilla CDP|Census Designated Place|S|Rio Arriba County
 NM|35|38890|Lamy CDP|Census Designated Place|S|Santa Fe County
 NM|35|39030|La Plata CDP|Census Designated Place|S|San Juan County
 NM|35|39170|La Puebla CDP|Census Designated Place|S|Santa Fe County
-NM|35|39380|Las Cruces city|Incorporated Place|A|DoÒa Ana County
+NM|35|39380|Las Cruces city|Incorporated Place|A|Do√±a Ana County
 NM|35|39430|Las Maravillas CDP|Census Designated Place|S|Valencia County
 NM|35|39450|Las Nutrias CDP|Census Designated Place|S|Socorro County
 NM|35|39520|Las Palomas CDP|Census Designated Place|S|Sierra County
 NM|35|39940|Las Vegas city|Incorporated Place|A|San Miguel County
-NM|35|40220|La Union CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|40220|La Union CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|40360|La Villita CDP|Census Designated Place|S|Rio Arriba County
 NM|35|40525|Lee Acres CDP|Census Designated Place|S|San Juan County
 NM|35|40570|Lemitar CDP|Census Designated Place|S|Socorro County
@@ -22766,9 +22766,9 @@ NM|35|47150|Mayhill CDP|Census Designated Place|S|Otero County
 NM|35|47220|Meadow Lake CDP|Census Designated Place|S|Valencia County
 NM|35|47570|Melrose village|Incorporated Place|A|Curry County
 NM|35|47920|Mescalero CDP|Census Designated Place|S|Otero County
-NM|35|48060|Mesilla town|Incorporated Place|A|DoÒa Ana County
+NM|35|48060|Mesilla town|Incorporated Place|A|Do√±a Ana County
 NM|35|48200|Mesita CDP|Census Designated Place|S|Cibola County
-NM|35|48270|Mesquite CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|48270|Mesquite CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|48425|Middle Frisco CDP|Census Designated Place|S|Catron County
 NM|35|48480|Midway CDP|Census Designated Place|S|Chaves County
 NM|35|48620|Milan village|Incorporated Place|A|Cibola County
@@ -22804,7 +22804,7 @@ NM|35|52750|North Valley CDP|Census Designated Place|S|Bernalillo County
 NM|35|53010|Oasis CDP|Census Designated Place|S|Sierra County
 NM|35|53150|Ohkay Owingeh CDP|Census Designated Place|S|Rio Arriba County
 NM|35|53485|Ojo Amarillo CDP|Census Designated Place|S|San Juan County
-NM|35|54430|Organ CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|54430|Organ CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|54500|Orogrande CDP|Census Designated Place|S|Otero County
 NM|35|54710|Paguate CDP|Census Designated Place|S|Cibola County
 NM|35|54940|Pajarito Mesa CDP|Census Designated Place|S|Bernalillo County
@@ -22814,15 +22814,15 @@ NM|35|55550|Pastura CDP|Census Designated Place|S|Guadalupe County
 NM|35|55595|Peak Place CDP|Census Designated Place|S|Santa Fe County
 NM|35|55605|Pecan Park CDP|Census Designated Place|S|Luna County
 NM|35|55620|Pecos village|Incorporated Place|A|San Miguel County
-NM|35|55830|PeÒa Blanca CDP|Census Designated Place|S|Sandoval County
-NM|35|55900|PeÒasco CDP|Census Designated Place|S|Taos County
+NM|35|55830|Pe√±a Blanca CDP|Census Designated Place|S|Sandoval County
+NM|35|55900|Pe√±asco CDP|Census Designated Place|S|Taos County
 NM|35|56180|Peralta town|Incorporated Place|A|Valencia County
 NM|35|56810|Picuris Pueblo CDP|Census Designated Place|S|Taos County
 NM|35|56950|Pie Town CDP|Census Designated Place|S|Catron County
 NM|35|57190|Pinehill CDP|Census Designated Place|S|Cibola County
 NM|35|57440|Pinon CDP|Census Designated Place|S|Otero County
 NM|35|57510|Pinos Altos CDP|Census Designated Place|S|Grant County
-NM|35|57990|Placitas CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|57990|Placitas CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|58070|Placitas CDP|Census Designated Place|S|Sandoval County
 NM|35|58210|Playas CDP|Census Designated Place|S|Hidalgo County
 NM|35|58420|Pleasanton CDP|Census Designated Place|S|Catron County
@@ -22840,7 +22840,7 @@ NM|35|60170|Puerto de Luna CDP|Census Designated Place|S|Guadalupe County
 NM|35|60205|Pulpotio Bareas CDP|Census Designated Place|S|Luna County
 NM|35|60730|Quemado CDP|Census Designated Place|S|Catron County
 NM|35|60870|Questa village|Incorporated Place|A|Taos County
-NM|35|61010|Radium Springs CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|61010|Radium Springs CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|61220|Ramah CDP|Census Designated Place|S|McKinley County
 NM|35|61675|Rancho Grande CDP|Census Designated Place|S|Catron County
 NM|35|61710|Ranchos de Taos CDP|Census Designated Place|S|Taos County
@@ -22849,7 +22849,7 @@ NM|35|62200|Red River town|Incorporated Place|A|Taos County
 NM|35|62340|Regina CDP|Census Designated Place|S|Sandoval County
 NM|35|62620|Reserve village|Incorporated Place|A|Catron County
 NM|35|62760|Ribera CDP|Census Designated Place|S|San Miguel County
-NM|35|62900|Rincon CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|62900|Rincon CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|63145|Rio Communities CDP|Census Designated Place|S|Valencia County
 NM|35|63168|Rio en Medio CDP|Census Designated Place|S|Santa Fe County
 NM|35|63250|Rio Lucio CDP|Census Designated Place|S|Taos County
@@ -22857,7 +22857,7 @@ NM|35|63460|Rio Rancho city|Incorporated Place|A|Bernalillo County, Sandoval Cou
 NM|35|63660|Rivers CDP|Census Designated Place|S|Catron County
 NM|35|64230|Rock Springs CDP|Census Designated Place|S|McKinley County
 NM|35|64370|Rodeo CDP|Census Designated Place|S|Hidalgo County
-NM|35|64440|Rodey CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|64440|Rodey CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|64900|Rosedale CDP|Census Designated Place|S|Grant County
 NM|35|64930|Roswell city|Incorporated Place|A|Chaves County
 NM|35|65000|Rowe CDP|Census Designated Place|S|San Miguel County
@@ -22865,7 +22865,7 @@ NM|35|65070|Roy village|Incorporated Place|A|Harding County
 NM|35|65210|Ruidoso village|Incorporated Place|A|Lincoln County
 NM|35|65280|Ruidoso Downs city|Incorporated Place|A|Lincoln County
 NM|35|65560|Sacramento CDP|Census Designated Place|S|Otero County
-NM|35|65840|Salem CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|65840|Salem CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|65910|San Acacia CDP|Census Designated Place|S|Socorro County
 NM|35|66120|San Antonio CDP|Census Designated Place|S|Socorro County
 NM|35|66330|San Antonito CDP|Census Designated Place|S|Bernalillo County
@@ -22883,9 +22883,9 @@ NM|35|68500|San Jose CDP|Census Designated Place|S|San Miguel County
 NM|35|68920|San Lorenzo CDP|Census Designated Place|S|Grant County
 NM|35|69060|San Luis CDP|Census Designated Place|S|Sandoval County
 NM|35|69270|San Mateo CDP|Census Designated Place|S|Cibola County
-NM|35|69410|San Miguel CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|69410|San Miguel CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|69620|Sanostee CDP|Census Designated Place|S|San Juan County
-NM|35|69645|San Pablo CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|69645|San Pablo CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|69825|San Pedro CDP|Census Designated Place|S|Santa Fe County
 NM|35|69875|San Rafael CDP|Census Designated Place|S|Cibola County
 NM|35|70250|Santa Ana Pueblo CDP|Census Designated Place|S|Sandoval County
@@ -22894,9 +22894,9 @@ NM|35|70390|Santa Clara Pueblo CDP|Census Designated Place|S|Rio Arriba County
 NM|35|70460|Santa Cruz CDP|Census Designated Place|S|Santa Fe County
 NM|35|70500|Santa Fe city|Incorporated Place|A|Santa Fe County
 NM|35|70670|Santa Rosa city|Incorporated Place|A|Guadalupe County
-NM|35|70700|Santa Teresa CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|70700|Santa Teresa CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|70810|Santo Domingo Pueblo CDP|Census Designated Place|S|Sandoval County
-NM|35|71015|San Ysidro CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|71015|San Ysidro CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|71020|San Ysidro village|Incorporated Place|A|Sandoval County
 NM|35|71145|Sausal CDP|Census Designated Place|S|Valencia County
 NM|35|71440|Seama CDP|Census Designated Place|S|Cibola County
@@ -22914,7 +22914,7 @@ NM|35|73925|South Acomita Village CDP|Census Designated Place|S|Cibola County
 NM|35|74520|South Valley CDP|Census Designated Place|S|Bernalillo County
 NM|35|74660|Spencerville CDP|Census Designated Place|S|San Juan County
 NM|35|74800|Springer town|Incorporated Place|A|Colfax County
-NM|35|75640|Sunland Park city|Incorporated Place|A|DoÒa Ana County
+NM|35|75640|Sunland Park city|Incorporated Place|A|Do√±a Ana County
 NM|35|75710|Sunshine CDP|Census Designated Place|S|Luna County
 NM|35|76060|Tajique CDP|Census Designated Place|S|Torrance County
 NM|35|76130|Talpa CDP|Census Designated Place|S|Taos County
@@ -22944,11 +22944,11 @@ NM|35|79980|Tularosa village|Incorporated Place|A|Otero County
 NM|35|80470|Twin Forks CDP|Census Designated Place|S|Otero County
 NM|35|80540|Twin Lakes CDP|Census Designated Place|S|McKinley County
 NM|35|80820|Tyrone CDP|Census Designated Place|S|Grant County
-NM|35|81030|University Park CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|81030|University Park CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|81177|Upper Fruitland CDP|Census Designated Place|S|San Juan County
 NM|35|81450|Ute Park CDP|Census Designated Place|S|Colfax County
 NM|35|81520|Vadito CDP|Census Designated Place|S|Taos County
-NM|35|81590|Vado CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|81590|Vado CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|81800|Valencia CDP|Census Designated Place|S|Valencia County
 NM|35|82570|Vaughn town|Incorporated Place|A|Guadalupe County
 NM|35|82640|Veguita CDP|Census Designated Place|S|Socorro County
@@ -22962,7 +22962,7 @@ NM|35|83830|Watrous CDP|Census Designated Place|S|Mora County
 NM|35|83970|Weed CDP|Census Designated Place|S|Otero County
 NM|35|84200|West Hammond CDP|Census Designated Place|S|San Juan County
 NM|35|84740|White Rock CDP|Census Designated Place|S|Los Alamos County
-NM|35|84845|White Sands CDP|Census Designated Place|S|DoÒa Ana County
+NM|35|84845|White Sands CDP|Census Designated Place|S|Do√±a Ana County
 NM|35|84950|Whites City CDP|Census Designated Place|S|Eddy County
 NM|35|84975|White Signal CDP|Census Designated Place|S|Grant County
 NM|35|85160|Willard village|Incorporated Place|A|Torrance County
@@ -35166,7 +35166,7 @@ TX|48|43684|Lone Star city|Incorporated Place|A|Morris County
 TX|48|43822|Longoria CDP|Census Designated Place|S|Starr County
 TX|48|43888|Longview city|Incorporated Place|A|Gregg County, Harrison County
 TX|48|43948|Loop CDP|Census Designated Place|S|Gaines County
-TX|48|43960|LopeÒo CDP|Census Designated Place|S|Zapata County
+TX|48|43960|Lope√±o CDP|Census Designated Place|S|Zapata County
 TX|48|43972|Lopezville CDP|Census Designated Place|S|Hidalgo County
 TX|48|43996|Loraine town|Incorporated Place|A|Mitchell County
 TX|48|44020|Lorena city|Incorporated Place|A|McLennan County
@@ -35639,8 +35639,8 @@ TX|48|64184|St. Jo city|Incorporated Place|A|Montague County
 TX|48|64220|St. Paul town|Incorporated Place|A|Collin County
 TX|48|64244|St. Paul CDP|Census Designated Place|S|San Patricio County
 TX|48|64268|Salado village|Incorporated Place|A|Bell County
-TX|48|64316|SalineÒo CDP|Census Designated Place|S|Starr County
-TX|48|64322|SalineÒo North CDP|Census Designated Place|S|Starr County
+TX|48|64316|Saline√±o CDP|Census Designated Place|S|Starr County
+TX|48|64322|Saline√±o North CDP|Census Designated Place|S|Starr County
 TX|48|64442|Sammy Martinez CDP|Census Designated Place|S|Starr County
 TX|48|64448|Samnorwood CDP|Census Designated Place|S|Collingsworth County
 TX|48|64460|Sam Rayburn CDP|Census Designated Place|S|Jasper County
@@ -41166,13 +41166,13 @@ PR|72|00616|Aguada zona urbana|Census Designated Place|S|Aguada Municipio
 PR|72|00745|Aguadilla zona urbana|Census Designated Place|S|Aguadilla Municipio
 PR|72|00874|Aguas Buenas zona urbana|Census Designated Place|S|Aguas Buenas Municipio
 PR|72|01003|Aguas Claras comunidad|Census Designated Place|S|Ceiba Municipio
-PR|72|01089|Aguilita comunidad|Census Designated Place|S|Juana DÌaz Municipio
+PR|72|01089|Aguilita comunidad|Census Designated Place|S|Juana D√≠az Municipio
 PR|72|01218|Aibonito zona urbana|Census Designated Place|S|Aibonito Municipio
 PR|72|01863|Alianza comunidad|Census Designated Place|S|Camuy Municipio
-PR|72|02680|AÒasco zona urbana|Census Designated Place|S|AÒasco Municipio
+PR|72|02680|A√±asco zona urbana|Census Designated Place|S|A√±asco Municipio
 PR|72|03024|Animas comunidad|Census Designated Place|S|Arecibo Municipio
 PR|72|03174|Anon Raices comunidad|Census Designated Place|S|Ponce Municipio
-PR|72|03196|AntÛn RuÌz comunidad|Census Designated Place|S|Humacao Municipio
+PR|72|03196|Ant√≥n Ru√≠z comunidad|Census Designated Place|S|Humacao Municipio
 PR|72|03368|Arecibo zona urbana|Census Designated Place|S|Arecibo Municipio
 PR|72|03927|Arroyo zona urbana|Census Designated Place|S|Arroyo Municipio
 PR|72|04620|Bairoa La Vienticinco comunidad|Census Designated Place|S|Caguas Municipio
@@ -41181,34 +41181,34 @@ PR|72|04701|Bajandas comunidad|Census Designated Place|S|Humacao Municipio
 PR|72|05217|Barahona comunidad|Census Designated Place|S|Morovis Municipio
 PR|72|05346|Barceloneta zona urbana|Census Designated Place|S|Barceloneta Municipio
 PR|72|05690|Barranquitas zona urbana|Census Designated Place|S|Barranquitas Municipio
-PR|72|06421|Bartolo comunidad|Census Designated Place|S|RÌo Grande Municipio
-PR|72|06593|BayamÛn zona urbana|Census Designated Place|S|BayamÛn Municipio
-PR|72|06679|BayamÛn comunidad|Census Designated Place|S|Cidra Municipio
-PR|72|07496|BenÌtez comunidad|Census Designated Place|S|CanÛvanas Municipio
+PR|72|06421|Bartolo comunidad|Census Designated Place|S|R√≠o Grande Municipio
+PR|72|06593|Bayam√≥n zona urbana|Census Designated Place|S|Bayam√≥n Municipio
+PR|72|06679|Bayam√≥n comunidad|Census Designated Place|S|Cidra Municipio
+PR|72|07496|Ben√≠tez comunidad|Census Designated Place|S|Can√≥vanas Municipio
 PR|72|07668|Betances comunidad|Census Designated Place|S|Cabo Rojo Municipio
-PR|72|07969|BoquerÛn comunidad|Census Designated Place|S|Cabo Rojo Municipio
-PR|72|08099|BoquerÛn comunidad|Census Designated Place|S|Las Piedras Municipio
-PR|72|08700|BreÒas comunidad|Census Designated Place|S|Vega Alta Municipio
+PR|72|07969|Boquer√≥n comunidad|Census Designated Place|S|Cabo Rojo Municipio
+PR|72|08099|Boquer√≥n comunidad|Census Designated Place|S|Las Piedras Municipio
+PR|72|08700|Bre√±as comunidad|Census Designated Place|S|Vega Alta Municipio
 PR|72|09087|Buena Vista comunidad|Census Designated Place|S|Arroyo Municipio
 PR|72|09250|Buena Vista comunidad|Census Designated Place|S|Humacao Municipio
-PR|72|09603|B˙falo comunidad|Census Designated Place|S|Barceloneta Municipio
-PR|72|09689|Cab·n comunidad|Census Designated Place|S|Aguadilla Municipio
+PR|72|09603|B√∫falo comunidad|Census Designated Place|S|Barceloneta Municipio
+PR|72|09689|Cab√°n comunidad|Census Designated Place|S|Aguadilla Municipio
 PR|72|09861|Cabo Rojo zona urbana|Census Designated Place|S|Cabo Rojo Municipio
 PR|72|10048|Cacao comunidad|Census Designated Place|S|Quebradillas Municipio
 PR|72|10334|Caguas zona urbana|Census Designated Place|S|Caguas Municipio
 PR|72|11151|Calzada comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|11581|Campanilla comunidad|Census Designated Place|S|Toa Baja Municipio
-PR|72|11710|Campo Rico comunidad|Census Designated Place|S|CanÛvanas Municipio
+PR|72|11710|Campo Rico comunidad|Census Designated Place|S|Can√≥vanas Municipio
 PR|72|11925|Camuy zona urbana|Census Designated Place|S|Camuy Municipio
 PR|72|12441|Candelaria comunidad|Census Designated Place|S|Toa Baja Municipio
 PR|72|12560|Candelaria Arenas comunidad|Census Designated Place|S|Toa Baja Municipio
 PR|72|12568|Candelero Abajo comunidad|Census Designated Place|S|Humacao Municipio
 PR|72|12613|Candelero Arriba comunidad|Census Designated Place|S|Humacao Municipio
-PR|72|12828|CanÛvanas zona urbana|Census Designated Place|S|CanÛvanas Municipio
-PR|72|13925|Capitanejo comunidad|Census Designated Place|S|Juana DÌaz Municipio, Ponce Municipio
+PR|72|12828|Can√≥vanas zona urbana|Census Designated Place|S|Can√≥vanas Municipio
+PR|72|13925|Capitanejo comunidad|Census Designated Place|S|Juana D√≠az Municipio, Ponce Municipio
 PR|72|14290|Carolina zona urbana|Census Designated Place|S|Carolina Municipio
 PR|72|14634|Carrizales comunidad|Census Designated Place|S|Hatillo Municipio
-PR|72|15193|CataÒo zona urbana|Census Designated Place|S|CataÒo Municipio
+PR|72|15193|Cata√±o zona urbana|Census Designated Place|S|Cata√±o Municipio
 PR|72|15494|Cayey zona urbana|Census Designated Place|S|Cayey Municipio
 PR|72|15623|Cayuco comunidad|Census Designated Place|S|Utuado Municipio
 PR|72|15924|Ceiba zona urbana|Census Designated Place|S|Ceiba Municipio
@@ -41220,49 +41220,49 @@ PR|72|17773|Ciales zona urbana|Census Designated Place|S|Ciales Municipio
 PR|72|18074|Cidra zona urbana|Census Designated Place|S|Cidra Municipio
 PR|72|18719|Coamo zona urbana|Census Designated Place|S|Coamo Municipio
 PR|72|18891|Coco comunidad|Census Designated Place|S|Salinas Municipio
-PR|72|19665|ComerÌo zona urbana|Census Designated Place|S|ComerÌo Municipio
+PR|72|19665|Comer√≠o zona urbana|Census Designated Place|S|Comer√≠o Municipio
 PR|72|19837|Comunas comunidad|Census Designated Place|S|Yabucoa Municipio
-PR|72|20310|CoquÌ comunidad|Census Designated Place|S|Salinas Municipio
-PR|72|20353|CorazÛn comunidad|Census Designated Place|S|Guayama Municipio
+PR|72|20310|Coqu√≠ comunidad|Census Designated Place|S|Salinas Municipio
+PR|72|20353|Coraz√≥n comunidad|Census Designated Place|S|Guayama Municipio
 PR|72|20482|Corcovado comunidad|Census Designated Place|S|Hatillo Municipio
 PR|72|20783|Corozal zona urbana|Census Designated Place|S|Corozal Municipio
 PR|72|21020|Corral Viejo comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|21213|Coto Laurel comunidad|Census Designated Place|S|Ponce Municipio
-PR|72|21385|Coto Norte comunidad|Census Designated Place|S|ManatÌ Municipio, Vega Baja Municipio
+PR|72|21385|Coto Norte comunidad|Census Designated Place|S|Manat√≠ Municipio, Vega Baja Municipio
 PR|72|22589|Culebra zona urbana|Census Designated Place|S|Culebra Municipio
 PR|72|23062|Daguao comunidad|Census Designated Place|S|Naguabo Municipio
 PR|72|24008|Dorado zona urbana|Census Designated Place|S|Dorado Municipio
 PR|72|24395|Duque comunidad|Census Designated Place|S|Naguabo Municipio
 PR|72|24954|El Combate comunidad|Census Designated Place|S|Cabo Rojo Municipio
-PR|72|25556|El MangÛ comunidad|Census Designated Place|S|Juncos Municipio
+PR|72|25556|El Mang√≥ comunidad|Census Designated Place|S|Juncos Municipio
 PR|72|25685|El Negro comunidad|Census Designated Place|S|Yabucoa Municipio
 PR|72|25771|El Ojo comunidad|Census Designated Place|S|Santa Isabel Municipio
 PR|72|25835|El Paraiso comunidad|Census Designated Place|S|Ponce Municipio
-PR|72|26287|El Tumbao comunidad|Census Designated Place|S|Gu·nica Municipio
+PR|72|26287|El Tumbao comunidad|Census Designated Place|S|Gu√°nica Municipio
 PR|72|26502|Emajagua comunidad|Census Designated Place|S|Maunabo Municipio
 PR|72|27190|Esperanza comunidad|Census Designated Place|S|Vieques Municipio
-PR|72|27263|Espino comunidad|Census Designated Place|S|AÒasco Municipio
+PR|72|27263|Espino comunidad|Census Designated Place|S|A√±asco Municipio
 PR|72|27964|Fajardo zona urbana|Census Designated Place|S|Fajardo Municipio
 PR|72|28824|Florida zona urbana|Census Designated Place|S|Florida Municipio
-PR|72|29555|Fr·nquez comunidad|Census Designated Place|S|Morovis Municipio
-PR|72|29727|Fuig comunidad|Census Designated Place|S|Gu·nica Municipio
+PR|72|29555|Fr√°nquez comunidad|Census Designated Place|S|Morovis Municipio
+PR|72|29727|Fuig comunidad|Census Designated Place|S|Gu√°nica Municipio
 PR|72|29813|Galateo comunidad|Census Designated Place|S|Toa Alta Municipio
 PR|72|30372|Garrochales comunidad|Census Designated Place|S|Barceloneta Municipio
-PR|72|30544|G. L. GarcÌa comunidad|Census Designated Place|S|Cayey Municipio
-PR|72|31189|Gu·nica zona urbana|Census Designated Place|S|Gu·nica Municipio
-PR|72|31877|Guayabal comunidad|Census Designated Place|S|Juana DÌaz Municipio
+PR|72|30544|G. L. Garc√≠a comunidad|Census Designated Place|S|Cayey Municipio
+PR|72|31189|Gu√°nica zona urbana|Census Designated Place|S|Gu√°nica Municipio
+PR|72|31877|Guayabal comunidad|Census Designated Place|S|Juana D√≠az Municipio
 PR|72|32221|Guayama zona urbana|Census Designated Place|S|Guayama Municipio
 PR|72|32307|Guayanilla zona urbana|Census Designated Place|S|Guayanilla Municipio
 PR|72|32522|Guaynabo zona urbana|Census Designated Place|S|Guaynabo Municipio
 PR|72|32823|Gurabo zona urbana|Census Designated Place|S|Gurabo Municipio
 PR|72|33184|Hacienda San Jose comunidad|Census Designated Place|S|Caguas Municipio
 PR|72|33296|Hatillo zona urbana|Census Designated Place|S|Hatillo Municipio
-PR|72|33597|Hato Arriba comunidad|Census Designated Place|S|San Sebasti·n Municipio
-PR|72|33683|Hato Candal comunidad|Census Designated Place|S|RÌo Grande Municipio
+PR|72|33597|Hato Arriba comunidad|Census Designated Place|S|San Sebasti√°n Municipio
+PR|72|33683|Hato Candal comunidad|Census Designated Place|S|R√≠o Grande Municipio
 PR|72|35059|Hormigueros zona urbana|Census Designated Place|S|Hormigueros Municipio
-PR|72|35403|H. Rivera ColÛn comunidad|Census Designated Place|S|Toa Alta Municipio
+PR|72|35403|H. Rivera Col√≥n comunidad|Census Designated Place|S|Toa Alta Municipio
 PR|72|35532|Humacao zona urbana|Census Designated Place|S|Humacao Municipio
-PR|72|35962|ImbÈry comunidad|Census Designated Place|S|Barceloneta Municipio
+PR|72|35962|Imb√©ry comunidad|Census Designated Place|S|Barceloneta Municipio
 PR|72|36177|Indios comunidad|Census Designated Place|S|Guayanilla Municipio
 PR|72|36263|Ingenio comunidad|Census Designated Place|S|Toa Baja Municipio
 PR|72|36478|Isabela zona urbana|Census Designated Place|S|Isabela Municipio
@@ -41270,50 +41270,50 @@ PR|72|37166|Jagual comunidad|Census Designated Place|S|San Lorenzo Municipio
 PR|72|38241|Jauca comunidad|Census Designated Place|S|Santa Isabel Municipio
 PR|72|38370|Jayuya zona urbana|Census Designated Place|S|Jayuya Municipio
 PR|72|38671|Jobos comunidad|Census Designated Place|S|Guayama Municipio
-PR|72|38972|Juana DÌaz zona urbana|Census Designated Place|S|Juana DÌaz Municipio
-PR|72|39470|Juncal comunidad|Census Designated Place|S|San Sebasti·n Municipio
+PR|72|38972|Juana D√≠az zona urbana|Census Designated Place|S|Juana D√≠az Municipio
+PR|72|39470|Juncal comunidad|Census Designated Place|S|San Sebasti√°n Municipio
 PR|72|39574|Juncos zona urbana|Census Designated Place|S|Juncos Municipio
 PR|72|39875|La Alianza comunidad|Census Designated Place|S|Arecibo Municipio
-PR|72|40348|La Dolores comunidad|Census Designated Place|S|RÌo Grande Municipio
+PR|72|40348|La Dolores comunidad|Census Designated Place|S|R√≠o Grande Municipio
 PR|72|40563|La Fermina comunidad|Census Designated Place|S|Humacao Municipio, Las Piedras Municipio
 PR|72|40950|Lajas zona urbana|Census Designated Place|S|Lajas Municipio
 PR|72|41274|La Liga comunidad|Census Designated Place|S|Caguas Municipio
-PR|72|41294|La Luisa comunidad|Census Designated Place|S|ManatÌ Municipio
+PR|72|41294|La Luisa comunidad|Census Designated Place|S|Manat√≠ Municipio
 PR|72|41466|Lamboglia comunidad|Census Designated Place|S|Patillas Municipio
 PR|72|41767|La Parguera comunidad|Census Designated Place|S|Lajas Municipio
-PR|72|42068|La Playa comunidad|Census Designated Place|S|AÒasco Municipio
+PR|72|42068|La Playa comunidad|Census Designated Place|S|A√±asco Municipio
 PR|72|42197|La Plena comunidad|Census Designated Place|S|Salinas Municipio
 PR|72|42498|Lares zona urbana|Census Designated Place|S|Lares Municipio
 PR|72|42842|Las Carolinas comunidad|Census Designated Place|S|Caguas Municipio
 PR|72|43057|Las Croabas comunidad|Census Designated Place|S|Fajardo Municipio
-PR|72|43702|Las MarÌas comunidad|Census Designated Place|S|AÒasco Municipio
-PR|72|43788|Las MarÌas zona urbana|Census Designated Place|S|Las MarÌas Municipio
+PR|72|43702|Las Mar√≠as comunidad|Census Designated Place|S|A√±asco Municipio
+PR|72|43788|Las Mar√≠as zona urbana|Census Designated Place|S|Las Mar√≠as Municipio
 PR|72|44003|Las Ochenta comunidad|Census Designated Place|S|Salinas Municipio
 PR|72|44089|Las Ollas comunidad|Census Designated Place|S|Santa Isabel Municipio
 PR|72|44390|Las Piedras zona urbana|Census Designated Place|S|Las Piedras Municipio
 PR|72|45170|La Yuca comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|45336|Levittown comunidad|Census Designated Place|S|Toa Baja Municipio
-PR|72|45379|Liborio NegrÛn Torres comunidad|Census Designated Place|S|Sabana Grande Municipio
+PR|72|45379|Liborio Negr√≥n Torres comunidad|Census Designated Place|S|Sabana Grande Municipio
 PR|72|46282|Lluveras comunidad|Census Designated Place|S|Sabana Grande Municipio
-PR|72|46368|LoÌza zona urbana|Census Designated Place|S|LoÌza Municipio
-PR|72|46626|Lomas comunidad|Census Designated Place|S|CanÛvanas Municipio
+PR|72|46368|Lo√≠za zona urbana|Census Designated Place|S|Lo√≠za Municipio
+PR|72|46626|Lomas comunidad|Census Designated Place|S|Can√≥vanas Municipio
 PR|72|47013|Los Llanos comunidad|Census Designated Place|S|Coamo Municipio
 PR|72|47336|Los Panes comunidad|Census Designated Place|S|Caguas Municipio
 PR|72|47422|Los Prados comunidad|Census Designated Place|S|Caguas Municipio
-PR|72|47615|Luis LlorÈns Torres comunidad|Census Designated Place|S|Juana DÌaz Municipio
-PR|72|47701|Luis M. CintrÛn comunidad|Census Designated Place|S|Fajardo Municipio
+PR|72|47615|Luis Llor√©ns Torres comunidad|Census Designated Place|S|Juana D√≠az Municipio
+PR|72|47701|Luis M. Cintr√≥n comunidad|Census Designated Place|S|Fajardo Municipio
 PR|72|47787|Luquillo zona urbana|Census Designated Place|S|Luquillo Municipio
 PR|72|47873|Luyando comunidad|Census Designated Place|S|Aguada Municipio
 PR|72|48604|Magas Arriba comunidad|Census Designated Place|S|Guayanilla Municipio
 PR|72|48862|Maguayo comunidad|Census Designated Place|S|Lajas Municipio
-PR|72|50152|ManatÌ zona urbana|Census Designated Place|S|ManatÌ Municipio
-PR|72|50754|MarÌa Antonia comunidad|Census Designated Place|S|Gu·nica Municipio
-PR|72|51055|Mariano ColÛn comunidad|Census Designated Place|S|Coamo Municipio, Santa Isabel Municipio
+PR|72|50152|Manat√≠ zona urbana|Census Designated Place|S|Manat√≠ Municipio
+PR|72|50754|Mar√≠a Antonia comunidad|Census Designated Place|S|Gu√°nica Municipio
+PR|72|51055|Mariano Col√≥n comunidad|Census Designated Place|S|Coamo Municipio, Santa Isabel Municipio
 PR|72|51270|Maricao zona urbana|Census Designated Place|S|Maricao Municipio
 PR|72|51657|Martorell comunidad|Census Designated Place|S|Yabucoa Municipio
-PR|72|51700|MarueÒo comunidad|Census Designated Place|S|Ponce Municipio
+PR|72|51700|Marue√±o comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|52345|Maunabo zona urbana|Census Designated Place|S|Maunabo Municipio
-PR|72|52431|Mayag¸ez zona urbana|Census Designated Place|S|Mayag¸ez Municipio
+PR|72|52431|Mayag√ºez zona urbana|Census Designated Place|S|Mayag√ºez Municipio
 PR|72|53678|Miranda comunidad|Census Designated Place|S|Vega Baja Municipio
 PR|72|53807|Moca zona urbana|Census Designated Place|S|Moca Municipio
 PR|72|53979|Monserrate comunidad|Census Designated Place|S|Vega Alta Municipio, Vega Baja Municipio
@@ -41326,27 +41326,27 @@ PR|72|55828|Naguabo zona urbana|Census Designated Place|S|Naguabo Municipio
 PR|72|56129|Naranjito zona urbana|Census Designated Place|S|Naranjito Municipio
 PR|72|57075|Olimpo comunidad|Census Designated Place|S|Guayama Municipio
 PR|72|57290|Orocovis zona urbana|Census Designated Place|S|Orocovis Municipio
-PR|72|57806|P·jaros comunidad|Census Designated Place|S|Toa Alta Municipio
+PR|72|57806|P√°jaros comunidad|Census Designated Place|S|Toa Alta Municipio
 PR|72|57862|Pajonal comunidad|Census Designated Place|S|Florida Municipio
 PR|72|57978|Palmarejo comunidad|Census Designated Place|S|Coamo Municipio
 PR|72|58150|Palmarejo comunidad|Census Designated Place|S|Lajas Municipio
 PR|72|58516|Palmas comunidad|Census Designated Place|S|Arroyo Municipio, Patillas Municipio
 PR|72|58602|Palmas del Mar comunidad|Census Designated Place|S|Humacao Municipio
-PR|72|58666|Palmer comunidad|Census Designated Place|S|RÌo Grande Municipio
-PR|72|58967|Palomas comunidad|Census Designated Place|S|ComerÌo Municipio
+PR|72|58666|Palmer comunidad|Census Designated Place|S|R√≠o Grande Municipio
+PR|72|58967|Palomas comunidad|Census Designated Place|S|Comer√≠o Municipio
 PR|72|59053|Palomas comunidad|Census Designated Place|S|Yauco Municipio
 PR|72|59139|Palo Seco comunidad|Census Designated Place|S|Maunabo Municipio
 PR|72|59386|Parcelas de Navarro comunidad|Census Designated Place|S|Gurabo Municipio
 PR|72|59420|Parcelas La Milagrosa comunidad|Census Designated Place|S|Cidra Municipio
 PR|72|59422|Parcelas Mandry comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|59425|Parcelas Nuevas comunidad|Census Designated Place|S|Cidra Municipio
-PR|72|59440|Parcelas PeÒuelas comunidad|Census Designated Place|S|Santa Isabel Municipio
+PR|72|59440|Parcelas Pe√±uelas comunidad|Census Designated Place|S|Santa Isabel Municipio
 PR|72|59450|Parcelas Viejas Borinquen comunidad|Census Designated Place|S|Caguas Municipio
 PR|72|60257|Pastos comunidad|Census Designated Place|S|Aibonito Municipio
 PR|72|60472|Patillas zona urbana|Census Designated Place|S|Patillas Municipio
-PR|72|60945|PeÒa Pobre comunidad|Census Designated Place|S|Naguabo Municipio
-PR|72|61074|PeÒuelas zona urbana|Census Designated Place|S|PeÒuelas Municipio
-PR|72|61545|Piedra Aguza comunidad|Census Designated Place|S|Juana DÌaz Municipio
+PR|72|60945|Pe√±a Pobre comunidad|Census Designated Place|S|Naguabo Municipio
+PR|72|61074|Pe√±uelas zona urbana|Census Designated Place|S|Pe√±uelas Municipio
+PR|72|61545|Piedra Aguza comunidad|Census Designated Place|S|Juana D√≠az Municipio
 PR|72|61590|Piedra Gorda comunidad|Census Designated Place|S|Camuy Municipio
 PR|72|63310|Playa Fortuna comunidad|Census Designated Place|S|Luquillo Municipio
 PR|72|63503|Playita comunidad|Census Designated Place|S|Salinas Municipio
@@ -41354,27 +41354,27 @@ PR|72|63525|Playita comunidad|Census Designated Place|S|Yabucoa Municipio
 PR|72|63568|Playita Cortada comunidad|Census Designated Place|S|Santa Isabel Municipio
 PR|72|63697|Pole Ojea comunidad|Census Designated Place|S|Cabo Rojo Municipio
 PR|72|63820|Ponce zona urbana|Census Designated Place|S|Ponce Municipio
-PR|72|64127|Potala Pastillo comunidad|Census Designated Place|S|Juana DÌaz Municipio
+PR|72|64127|Potala Pastillo comunidad|Census Designated Place|S|Juana D√≠az Municipio
 PR|72|64400|Pueblito del Carmen comunidad|Census Designated Place|S|Guayama Municipio
-PR|72|64500|Pueblito del RÌo comunidad|Census Designated Place|S|Las Piedras Municipio
+PR|72|64500|Pueblito del R√≠o comunidad|Census Designated Place|S|Las Piedras Municipio
 PR|72|65589|Puerto Real comunidad|Census Designated Place|S|Cabo Rojo Municipio
 PR|72|66492|Punta Santiago comunidad|Census Designated Place|S|Humacao Municipio
 PR|72|66660|Quebrada comunidad|Census Designated Place|S|Camuy Municipio
 PR|72|67200|Quebrada del Agua comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|68040|Quebradillas zona urbana|Census Designated Place|S|Quebradillas Municipio
-PR|72|68513|Rafael CapÛ comunidad|Census Designated Place|S|Hatillo Municipio
-PR|72|68556|Rafael Gonz·lez comunidad|Census Designated Place|S|Hatillo Municipio
-PR|72|68599|Rafael Hern·ndez comunidad|Census Designated Place|S|Aguadilla Municipio
+PR|72|68513|Rafael Cap√≥ comunidad|Census Designated Place|S|Hatillo Municipio
+PR|72|68556|Rafael Gonz√°lez comunidad|Census Designated Place|S|Hatillo Municipio
+PR|72|68599|Rafael Hern√°ndez comunidad|Census Designated Place|S|Aguadilla Municipio
 PR|72|68771|Ramos comunidad|Census Designated Place|S|Luquillo Municipio
-PR|72|69588|RincÛn zona urbana|Census Designated Place|S|RincÛn Municipio
-PR|72|70448|RÌo Blanco comunidad|Census Designated Place|S|Naguabo Municipio
-PR|72|70706|RÌo CaÒas Abajo comunidad|Census Designated Place|S|Juana DÌaz Municipio
-PR|72|71136|RÌo Grande zona urbana|Census Designated Place|S|RÌo Grande Municipio
-PR|72|71437|RÌo Lajas comunidad|Census Designated Place|S|Dorado Municipio
-PR|72|71996|RodrÌguez Hevia zona urbana|Census Designated Place|S|Cidra Municipio
-PR|72|72555|Rosa S·nchez comunidad|Census Designated Place|S|Yabucoa Municipio
+PR|72|69588|Rinc√≥n zona urbana|Census Designated Place|S|Rinc√≥n Municipio
+PR|72|70448|R√≠o Blanco comunidad|Census Designated Place|S|Naguabo Municipio
+PR|72|70706|R√≠o Ca√±as Abajo comunidad|Census Designated Place|S|Juana D√≠az Municipio
+PR|72|71136|R√≠o Grande zona urbana|Census Designated Place|S|R√≠o Grande Municipio
+PR|72|71437|R√≠o Lajas comunidad|Census Designated Place|S|Dorado Municipio
+PR|72|71996|Rodr√≠guez Hevia zona urbana|Census Designated Place|S|Cidra Municipio
+PR|72|72555|Rosa S√°nchez comunidad|Census Designated Place|S|Yabucoa Municipio
 PR|72|73200|Sabana comunidad|Census Designated Place|S|Vega Alta Municipio, Vega Baja Municipio
-PR|72|73372|Sabana Eneas comunidad|Census Designated Place|S|San Germ·n Municipio
+PR|72|73372|Sabana Eneas comunidad|Census Designated Place|S|San Germ√°n Municipio
 PR|72|73544|Sabana Grande zona urbana|Census Designated Place|S|Sabana Grande Municipio
 PR|72|73716|Sabana Hoyos comunidad|Census Designated Place|S|Arecibo Municipio
 PR|72|74189|Sabana Seca comunidad|Census Designated Place|S|Toa Baja Municipio
@@ -41382,32 +41382,32 @@ PR|72|74877|Salinas zona urbana|Census Designated Place|S|Salinas Municipio
 PR|72|75608|San Antonio comunidad|Census Designated Place|S|Aguadilla Municipio
 PR|72|75694|San Antonio comunidad|Census Designated Place|S|Dorado Municipio
 PR|72|75780|San Antonio comunidad|Census Designated Place|S|Quebradillas Municipio
-PR|72|76167|San Germ·n zona urbana|Census Designated Place|S|San Germ·n Municipio
-PR|72|76339|San Isidro comunidad|Census Designated Place|S|CanÛvanas Municipio
-PR|72|76683|San JosÈ comunidad|Census Designated Place|S|Toa Baja Municipio
+PR|72|76167|San Germ√°n zona urbana|Census Designated Place|S|San Germ√°n Municipio
+PR|72|76339|San Isidro comunidad|Census Designated Place|S|Can√≥vanas Municipio
+PR|72|76683|San Jos√© comunidad|Census Designated Place|S|Toa Baja Municipio
 PR|72|76770|San Juan zona urbana|Census Designated Place|S|San Juan Municipio
 PR|72|77027|San Lorenzo zona urbana|Census Designated Place|S|San Lorenzo Municipio
-PR|72|77500|San Sebasti·n zona urbana|Census Designated Place|S|San Sebasti·n Municipio
-PR|72|77672|Santa B·rbara comunidad|Census Designated Place|S|CanÛvanas Municipio
+PR|72|77500|San Sebasti√°n zona urbana|Census Designated Place|S|San Sebasti√°n Municipio
+PR|72|77672|Santa B√°rbara comunidad|Census Designated Place|S|Can√≥vanas Municipio
 PR|72|77826|Santa Clara comunidad|Census Designated Place|S|Aguas Buenas Municipio
 PR|72|78145|Santa Isabel zona urbana|Census Designated Place|S|Santa Isabel Municipio
-PR|72|79564|Santo Domingo comunidad|Census Designated Place|S|PeÒuelas Municipio
-PR|72|80596|Stella comunidad|Census Designated Place|S|RincÛn Municipio
-PR|72|80639|Su·rez comunidad|Census Designated Place|S|LoÌza Municipio
-PR|72|81413|Tallaboa comunidad|Census Designated Place|S|PeÒuelas Municipio
-PR|72|81456|Tallaboa Alta comunidad|Census Designated Place|S|PeÒuelas Municipio
+PR|72|79564|Santo Domingo comunidad|Census Designated Place|S|Pe√±uelas Municipio
+PR|72|80596|Stella comunidad|Census Designated Place|S|Rinc√≥n Municipio
+PR|72|80639|Su√°rez comunidad|Census Designated Place|S|Lo√≠za Municipio
+PR|72|81413|Tallaboa comunidad|Census Designated Place|S|Pe√±uelas Municipio
+PR|72|81456|Tallaboa Alta comunidad|Census Designated Place|S|Pe√±uelas Municipio
 PR|72|82055|Tibes comunidad|Census Designated Place|S|Ponce Municipio
 PR|72|82125|Tiburones comunidad|Census Designated Place|S|Barceloneta Municipio
-PR|72|82187|Tierras Nuevas Poniente comunidad|Census Designated Place|S|ManatÌ Municipio
+PR|72|82187|Tierras Nuevas Poniente comunidad|Census Designated Place|S|Manat√≠ Municipio
 PR|72|82488|Toa Alta zona urbana|Census Designated Place|S|Toa Alta Municipio
 PR|72|82617|Toa Baja zona urbana|Census Designated Place|S|Toa Baja Municipio
 PR|72|83606|Trujillo Alto zona urbana|Census Designated Place|S|Trujillo Alto Municipio
 PR|72|84509|Utuado zona urbana|Census Designated Place|S|Utuado Municipio
 PR|72|85025|Vayas comunidad|Census Designated Place|S|Ponce Municipio
-PR|72|85111|V·zquez comunidad|Census Designated Place|S|Salinas Municipio
+PR|72|85111|V√°zquez comunidad|Census Designated Place|S|Salinas Municipio
 PR|72|85197|Vega Alta zona urbana|Census Designated Place|S|Vega Alta Municipio
 PR|72|85326|Vega Baja zona urbana|Census Designated Place|S|Vega Baja Municipio
-PR|72|85971|Vieques comunidad|Census Designated Place|S|LoÌza Municipio
+PR|72|85971|Vieques comunidad|Census Designated Place|S|Lo√≠za Municipio
 PR|72|86014|Vieques zona urbana|Census Designated Place|S|Vieques Municipio
 PR|72|86831|Villalba zona urbana|Census Designated Place|S|Villalba Municipio
 PR|72|87863|Yabucoa zona urbana|Census Designated Place|S|Yabucoa Municipio
