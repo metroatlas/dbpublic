@@ -16,7 +16,7 @@ C_SF1_Places_2010 <- function() {
   places$fipscounty <- sapply(places$fips, substr, start = 3, stop = 7)
   
   # Extract only the name of the places
-  lastElement <- function(x){x[-1]}
+  lastElement <- function(x){tail(x, n=1)}
   butLast <- function(x){head(x, -1)}
   
   pnameslist  <- sapply(places$GEO.display.label, strsplit, split = ",")
