@@ -9,6 +9,11 @@ A_CBSA_AddMDPI_2007 <- function() {
   mdpi      <- dbReadTable(db, "R_CBSA_MDPI_2007")[,c(1,3)]
   dbDisconnect(db)
   
+  # Delete column if exists
+  if("CBSAmdpi2007" %in% names(cbsa)) {
+    cbsa$CBSAmdpi2007  <- NULL
+  }
+  
   colnames(mdpi) <- c("CBSACode", "CBSAmdpi2007")
   
   # Merge the mdpi colum n the cbsa dataframe

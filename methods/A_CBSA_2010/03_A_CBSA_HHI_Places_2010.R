@@ -18,7 +18,6 @@ A_CBSA_HHI_Places_2010 <- function() {
     cbsa$CBSAhhipl  <- NULL
   }
   
-  
   # Get rid of Hawaii and Puerto Rico
   places <- places[places$state != "15" & places$state != "72", ]
   counties <- counties[counties$state != "15" & counties$state != "72", ]
