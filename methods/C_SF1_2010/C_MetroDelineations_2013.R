@@ -24,10 +24,12 @@ C_MetroDelineations_2013 <- function(d = TRUE){
   # Type
   md$MetropolitanMicropolitanStatisticalArea <- factor(md$MetropolitanMicropolitanStatisticalArea, levels = c("Micropolitan Statistical Area", "Metropolitan Statistical Area"))
   md$Type <- as.integer(md$MetropolitanMicropolitanStatisticalArea) - 1
+  md$Type <- as.integer(md$Type)
   
   # CentralCounty
   md$CentralOutlyingCounty  <- factor(md$CentralOutlyingCounty, levels = c("Outlying", "Central"))
   md$CentralCounty  <- as.integer(md$CentralOutlyingCounty) - 1
+  md$CentralCounty  <- as.integer(md$CentralCounty) - 1
   
   # CBSACentralCity
   firstElement <- function(x){x[1]}
@@ -35,6 +37,7 @@ C_MetroDelineations_2013 <- function(d = TRUE){
   
   # CSACentralCity
   md$CSACentralCity <- sapply(strsplit(md$CSATitle,"[-,]"), firstElement)
+  
   
   # Write table
   db <- conma()
