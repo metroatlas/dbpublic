@@ -25,6 +25,8 @@ C_CBSA_PrincipalCities_2013(d)
 
 # Import US Census 2000
 C_SF1_Counties_2000(d)
+C_SF1_Places_2000(d)
+C_MetroDelineations_2003(d)
 
 # MDPI
 R_CBSA_MDPI_2007(d)
