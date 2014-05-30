@@ -29,6 +29,10 @@ C_MetroDelineations_2003 <- function(d = TRUE){
   md$Type <- sapply(md$Status1metro2micro, getType)
   md <- md[,c(1:4,7:12)]
   
+  # Fips State and County
+  md$FIPSStateCode <- sapply(md$FIPS, substr, start = 1, stop = 2)
+  md$FIPSCountyCode <- sapply(md$FIPS, substr, start = 3, stop = 5)
+  
   # CBSACentralCity
   firstElement <- function(x){x[1]}
   md$CBSACentralCity <- sapply(strsplit(md$CBSATitle,"[-,]"), firstElement)
