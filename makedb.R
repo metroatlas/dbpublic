@@ -16,17 +16,20 @@ sourceAll()
 # This can be set for each function
 d  <-  FALSE
 
+# Import US Census 1950
+C_SF1_Counties_1950(d)
+
+# Import US Census 2000
+C_SF1_Counties_2000(d)
+C_SF1_Places_2000(d)
+C_MetroDelineations_2003(d)
+
 # Import US Census 2010
 C_SF1_Counties_2010(d)
 C_SF1_Places_2010(d)
 C_PlaceList_2010(d)
 C_MetroDelineations_2013(d)
 C_CBSA_PrincipalCities_2013(d)
-
-# Import US Census 2000
-C_SF1_Counties_2000(d)
-C_SF1_Places_2000(d)
-C_MetroDelineations_2003(d)
 
 # MDPI
 R_CBSA_MDPI_2007(d)
