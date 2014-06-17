@@ -24,7 +24,7 @@ C_SF1_Counties_1980 <- function(d = TRUE){
   # Transform data
   counties$C7L001 <- as.integer(counties$C7L001)
 
-  colnames(counties)[31] = "totapop1950"
+  colnames(counties)[31] = "totalpop1980"
   colnames(counties)[8] = "fipsstate"
   colnames(counties)[12] = "fipscounty"
   

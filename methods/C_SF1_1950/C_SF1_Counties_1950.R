@@ -26,7 +26,7 @@ C_SF1_Counties_1950 <- function(d = TRUE){
   counties$fipsstate <- sapply(counties$STATEA, substr, start = 1, stop = 2)
   counties$fipscounty <- sapply(counties$COUNTYA, substr, start = 1, stop = 3)
   counties$fips <- mapply(paste0, counties$fipsstate, counties$fipscounty, MoreArgs = list(collapse = ""))
-  colnames(counties)[8] = "totapop1950"
+  colnames(counties)[8] = "totalpop1950"
   
   # Write table
   db <- conma()
