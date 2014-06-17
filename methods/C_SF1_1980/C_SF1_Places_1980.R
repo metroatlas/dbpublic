@@ -24,14 +24,10 @@ C_SF1_Places_1980 <- function(d = TRUE){
   # Transform data
   places$C7L001 <- as.integer(places$C7L001)
   
-  colnames(counties)[31] = "totalpop1980"
-  colnames(counties)[8] = "fipsstate"
-  colnames(counties)[12] = "fipscounty"
-  
-  counties$fips <- mapply(paste0, counties$fipsstate, counties$fipscounty, MoreArgs = list(collapse = ""))
-  
+  colnames(places)[31] = "totalpop1980"
+    
   # Write table
   db <- conma()
-  dbWriteTable(db, name="C_SF1_Counties_1980", value=counties, overwrite=TRUE)
+  dbWriteTable(db, name="C_SF1_Places_1980", value=places, overwrite=TRUE)
   dbDisconnect(db)
 }

@@ -16,6 +16,9 @@ sourceAll()
 # This can be set for each function
 d  <-  FALSE
 
+# Vintage Census Codes for places
+C_PlacesVintageCodes(d)
+
 # Import US Census 1950
 C_SF1_Counties_1950(d)
 
