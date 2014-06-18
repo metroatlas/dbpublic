@@ -27,6 +27,7 @@ C_SF1_Counties_1980(d)
 C_SF1_Places_1980(d)
 C_PlaceList_1980(d)
 C_MetroNames_1981(d)
+C_MetroDelineations_1981(d)
 
 # Import US Census 2000
 C_SF1_Counties_2000(d)

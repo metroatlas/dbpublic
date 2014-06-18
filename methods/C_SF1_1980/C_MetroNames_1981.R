@@ -11,6 +11,7 @@ C_MetroNames_1981 <- function(d = TRUE){
   smsa <- read.fwf(file="data/C_MetroDelineations_1981.txt",
                    skip = 17,
                    n = 1868,
+                   colClasses = "character",
                    widths = c(4,4,2,6,2,3,3,5,7,63))
   
   # Get SMSA lines only (not county delineations)
