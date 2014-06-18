@@ -26,6 +26,7 @@ C_SF1_Counties_1950(d)
 C_SF1_Counties_1980(d)
 C_SF1_Places_1980(d)
 C_PlaceList_1980(d)
+C_MetroNames_1981(d)
 
 # Import US Census 2000
 C_SF1_Counties_2000(d)
@@ -44,3 +45,4 @@ R_CBSA_MDPI_2007(d)
 
 # Compute data on CBSA (Core-Based Statistical Areas) 2010
 A_CBSA_2010()
+A_SMSA_1980()

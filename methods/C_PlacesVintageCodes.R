@@ -32,6 +32,6 @@ C_PlacesVintageCodes <- function(d = TRUE) {
   
   # Write table
   db <- conma()
-  dbWriteTable(db, name="C_PlaceVintageCodes", value=pcodes, overwrite=TRUE)
+  dbWriteTable(db, name="C_PlacesVintageCodes", value=pcodes, overwrite=TRUE)
   dbDisconnect(db) 
 }
