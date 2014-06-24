@@ -45,5 +45,5 @@ C_CBSA_PrincipalCities_2013(d)
 R_CBSA_MDPI_2007(d)
 
 # Compute data on CBSA (Core-Based Statistical Areas) 2010
-A_CBSA_2010()
 A_SMSA_1980()
+A_CBSA_2010()
