@@ -17,6 +17,7 @@ C_StateCodes <- function(d) <- {
   
   colnames(states) <-  tolower(names(states))
   colnames(states)[3] <-  "statename"
+  colnames(states)[1] <-  "statefp"
   
   # Write table
   db <- conma()  
