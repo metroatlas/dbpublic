@@ -19,8 +19,12 @@ d  <-  FALSE
 # Vintage Census Codes for places
 C_PlacesVintageCodes(d)
 
+# FIPS codes and abbreviations for states
+C_StateCodes(d)
+
 # Import US Census 1950
 C_SF1_Counties_1950(d)
+C_SF1_Places_1950(d)
 
 # Import US Census 1980
 C_SF1_Counties_1980(d)
