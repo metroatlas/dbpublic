@@ -25,6 +25,8 @@ C_StateCodes(d)
 # Import US Census 1950
 C_SF1_Counties_1950(d)
 C_SF1_Places_1950(d)
+C_MetroNames_1950(d)
+C_MetroDelineations_1950(d)
 
 # Import US Census 1980
 C_SF1_Counties_1980(d)
