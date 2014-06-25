@@ -21,6 +21,6 @@ C_StateCodes <- function(d) <- {
   
   # Write table
   db <- conma()  
-  dbWriteTable(db, name="C_StateCodes", value=places, overwrite=TRUE)
+  dbWriteTable(db, name="C_StateCodes", value=states, overwrite=TRUE)
   dbDisconnect(db)
 }

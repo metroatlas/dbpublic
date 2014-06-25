@@ -53,10 +53,24 @@ C_SF1_Places_1950 <- function(d = TRUE){
     places$counties <- NULL
     places$County <- sapply(places$County, trim.white)
   
-  # Get counties information
-  #db <- conma()
-  #counties  <- dbReadTable(db, "C_SF1_Counties_1950")
-  #dbDisconnect(db)
+  # Get counties and states information
+  db <- conma()
+  counties  <- dbReadTable(db, "C_SF1_Counties_1950")
+  states  <- dbReadTable(db, "C_StateCodes")
+  dbDisconnect(db)
+  
+  # Insert state fips in places
+  states <- states[,1:2]
+  colnames(states) <- c("statefp", "State")
+  places$State <- as.character(places$State)
+  places <- merge(places, states, by = "State")
+  
+  # Find county fips for each place
+  counties <- counties[,c("fipsstate", "COUNTY", "fipscounty", "fips")]
+  colnames(counties) <- c("statefp", "countyname", "countyfp", "countyfpcompo")
+  colnames(places)[3] <- "countyname"
+  
+  places <- merge(places, counties, by =c("statefp", "countyname"), all.x = TRUE)
   
   # Write table
   db <- conma()  
