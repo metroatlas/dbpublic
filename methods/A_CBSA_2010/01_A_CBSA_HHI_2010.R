@@ -3,10 +3,9 @@
 # for the 2010 census.
 
 A_CBSA_HHI_2010 <- function() {
-  # Connect to database
-  db <- conma()
-  
+
   # Import data
+  db <- conma()
   places    <- dbReadTable(db, "C_SF1_Places_2010")
   counties  <- dbReadTable(db, "C_SF1_Counties_2010")
   delin     <- dbReadTable(db, "C_MetroDelineations_201302")
