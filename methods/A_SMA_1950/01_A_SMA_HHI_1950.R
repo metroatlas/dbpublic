@@ -12,6 +12,10 @@ A_SMA_HHI_1950 <- function() {
   sma.names <- dbReadTable(db, "C_MetroNames_1950")
   dbDisconnect(db)
   
+  # Get rid of Hawaii and Puerto Rico
+  places <- places[places$statefp != "15" & places$statefp != "72", ]
+  counties <- counties[counties$fipsstate != "15" & counties$fipsstate != "72", ]
+  
   # Retain only one county by place
   places <- places[places$icounties == 1,]
   
@@ -70,6 +74,6 @@ A_SMA_HHI_1950 <- function() {
   
   # Write table
   db <- conma()
-  dbWriteTable(db, name="A_CBSA_2010", value=cbsa, overwrite=TRUE)
+  dbWriteTable(db, name="A_SMA_1950", value=sma, overwrite=TRUE)
   dbDisconnect(db)
 }
