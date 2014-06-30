@@ -1,4 +1,4 @@
-C_StateCodes <- function(d) <- {
+C_StateCodes <- function(d) {
   Sys.setlocale("LC_ALL", 'en_US.UTF-8')
   
   # Download data
