@@ -1,9 +1,9 @@
 # Merge data on CBSA with data on counties
+
 A_CBSA_ByCounties_2010 <- function() {
-  # Connect to database
-  db <- conma()
-  
+
   # Import data
+  db <- conma()
   counties  <- dbReadTable(db, "C_SF1_Counties_2010")
   delin     <- dbReadTable(db, "C_MetroDelineations_201302")
   cbsa      <- dbReadTable(db, "A_CBSA_2010")
