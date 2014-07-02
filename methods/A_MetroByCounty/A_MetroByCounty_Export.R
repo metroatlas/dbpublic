@@ -5,7 +5,7 @@ A_MetroByCounty_Export <- function() {
   co <- dbReadTable(db, "A_MetroByCounty")
   dbDisconnect(db)
   
-  co$id <- paste(co$fipsstate, co$fipscounty, sep="")
+  co$id <- co$fips
   
   # Reverse HHI to get dilution of power instead of concentration
   co$CBSAhhi_1950  <- 1 - co$CBSAhhi_1950
@@ -21,6 +21,5 @@ A_MetroByCounty_Export <- function() {
               sep = ",",
               row.names = FALSE,
               col.names = TRUE,
-              fileEncoding = "UTF-8")
-  
+              fileEncoding = "UTF-8") 
 }

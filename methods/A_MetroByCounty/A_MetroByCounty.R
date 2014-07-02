@@ -8,6 +8,10 @@ A_MetroByCounty <- function() {
   dbDisconnect(db)
   
   # Prepare columns for 1950
+  
+  # Remove duplicated counties (Yellowstone National Park)
+  co1950 <- co1950[!duplicated(co1950$fips),]
+  
   to.keep <- c("fipsstate",
                "fipscounty",
                "totalpop1950",
@@ -24,6 +28,8 @@ A_MetroByCounty <- function() {
                         "CBSAname_1950",
                         "CBSApop_1950",
                         "CBSAhhi_1950")
+  
+  
   
   # Prepare columns for 1980
   to.keep <- c("fipsstate",
@@ -70,6 +76,8 @@ A_MetroByCounty <- function() {
   co <- merge(co2010, co,
               by = c("fipsstate","fipscounty"),
               all = TRUE)
+  
+  co$fips <- paste(co$fipsstate, co$fipscounty, sep = "")
   
   # Compute delta variables
   co$Deltahhi30y_2010 <- co$CBSAhhi_2010 - co$CBSAhhi_1980
