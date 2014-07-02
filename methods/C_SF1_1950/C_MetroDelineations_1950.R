@@ -36,6 +36,9 @@ C_MetroDelineations_1950 <- function(d = TRUE){
   sma$countyname <- sapply(sma$countyname, strsplit, split = ",")
   sma$countyname <- sapply(sma$countyname, firstElement)
   
+  # Remove duplicate counties
+  sma <- sma[!duplicated(sma$fips),]
+  
   # Write table
   db <- conma()
   dbWriteTable(db, name="C_MetroDelineations_1950", value=sma, overwrite=TRUE)
