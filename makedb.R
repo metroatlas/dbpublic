@@ -57,3 +57,4 @@ A_CBSA_2010()
 
 # Comprehensive historical data by County
 A_MetroByCounty()
+A_MetroByCounty_Export()
