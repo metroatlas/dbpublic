@@ -29,6 +29,8 @@ A_MetroByCounty <- function() {
                         "CBSApop_1950",
                         "CBSAhhi_1950")
   
+  # Change fips code for Dade county, who changed FIPS from 12025 to 12086 in 1997
+  co1950[co1950$fipsstate == "12" & co1950$fipscounty == "025",]$fipscounty  <- "086"
   
   
   # Prepare columns for 1980
@@ -48,6 +50,9 @@ A_MetroByCounty <- function() {
                         "CBSAname_1980",
                         "CBSApop_1980",
                         "CBSAhhi_1980")
+
+  # Change fips code for Dade county, who changed FIPS from 12025 to 12086 in 1997
+  co1980[co1980$fipsstate == "12" & co1980$fipscounty == "025",]$fipscounty  <- "086"
   
   # Prepare columns for 2010
   to.keep <- c("fipsstate",
