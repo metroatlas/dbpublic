@@ -35,6 +35,11 @@ C_MetroDelineations_1981 <- function(d = TRUE){
   # Merge with SMSA names
   delin <- merge(delin, smsa[,c(1,3)], by = "smsa")
   
+  # Remove duplicate counties
+  delin$fips <- paste(delin$statefp, delin$countyfp, sep="")
+  delin <- delin[!duplicated(delin$fips),]
+  delin$fips <- NULL
+  
   # Write table
   db <- conma()
   dbWriteTable(db, name="C_MetroDelineations_1981", value=delin, overwrite=TRUE)

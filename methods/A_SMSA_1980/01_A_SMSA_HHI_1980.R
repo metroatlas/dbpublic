@@ -3,10 +3,9 @@
 # for the 1980 census.
 
 A_SMSA_HHI_2010 <- function() {
-  # Connect to database
-  db <- conma()
-  
+
   # Import data
+  db <- conma()
   places    <- dbReadTable(db, "C_SF1_Places_1980")
   counties  <- dbReadTable(db, "C_SF1_Counties_1980")
   placelist <- dbReadTable(db, "C_PlaceList_1980")
@@ -46,7 +45,7 @@ A_SMSA_HHI_2010 <- function() {
   places <- places[places$type == 1,]
   # Sort placelist by allocation factor to assign a place to the county where it has the most population
   placelist <- placelist[with(placelist, order(cntyallocfactor, decreasing = TRUE)),]
-  # Remove duplicate place
+  # Remove duplicate places
   # Because the dataframe is now sorted, it will get rid of duplicates with the smallest share of population
   placelist <- placelist[!duplicated(placelist$fips), ]
   # Merge placelist (with county information) with places
