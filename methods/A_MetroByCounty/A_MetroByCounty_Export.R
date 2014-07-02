@@ -7,6 +7,8 @@ A_MetroByCounty_Export <- function() {
   
   co$id <- co$fips
   
+  co <- co[!is.na(co$countyname),]
+  
   # Reverse HHI to get dilution of power instead of concentration
   co$CBSAhhi_1950  <- 1 - co$CBSAhhi_1950
   co$CBSAhhi_1980  <- 1 - co$CBSAhhi_1980
@@ -21,5 +23,5 @@ A_MetroByCounty_Export <- function() {
               sep = ",",
               row.names = FALSE,
               col.names = TRUE,
-              fileEncoding = "UTF-8") 
+              fileEncoding = "UTF-8")
 }
