@@ -20,8 +20,14 @@ C_MetroDelineations_1981 <- function(d = TRUE){
                    widths = c(4,4,2,6,2,3,3,5,9,61))
   
   # Get county lines only (not SMSA names)
-  delin <- delin[,c(1,3,5,6,10)]
-  colnames(delin) <- c("smsa", "scsa", "statefp", "countyfp", "countyname")
+  delin <- delin[,c(1,3,5,6,8,10)]
+  colnames(delin) <- c("smsa", "scsa", "statefp", "countyfp", "placefp", "countyname")
+  delin <- delin[complete.cases(delin),]
+  delin <- delin[delin$placefp == "     ",]
+  delin$placefp <- NULL
+  
+  delin <- delin[delin$countyfp != "   ",]
+  
   delin[] <- lapply(delin, as.character)
   delin <- delin[!is.na(delin$countyfp),]
   delin <- delin[delin$countyfp != "   ",]
