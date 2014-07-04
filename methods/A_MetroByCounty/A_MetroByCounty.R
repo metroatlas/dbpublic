@@ -62,7 +62,14 @@ A_MetroByCounty <- function() {
                "CBSACode",
                "CBSATitle",
                "CBSApop",
-               "CBSAhhi")
+               "CBSAhhi",
+               "CBSAhhico",
+               "CBSAhhipl",
+               "CBSAplcount",
+               "CBSAplby10000",
+               "CBSApcpop",
+               "CBSApcprop",
+               "CBSAzb")
   
   co2010 <- co2010[,to.keep]
   colnames(co2010) <- c("fipsstate",
@@ -72,7 +79,14 @@ A_MetroByCounty <- function() {
                         "CBSAcode_2010",
                         "CBSAname_2010",
                         "CBSApop_2010",
-                        "CBSAhhi_2010")
+                        "CBSAhhi_2010",
+                        "CBSAhhico_2010",
+                        "CBSAhhipl_2010",
+                        "CBSAplcount_2010",
+                        "CBSAplby10000_2010",
+                        "CBSApcpop_2010",
+                        "CBSApcprop_2010",
+                        "CBSAzb_2010")
   
   # Merge years
   co <- merge(co1950, co1980,
