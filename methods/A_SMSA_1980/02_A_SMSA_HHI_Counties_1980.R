@@ -2,7 +2,7 @@
 # concentration of political power in US metropolitan areas
 # for the 1980 census, for Counties only.
 
-A_SMSA_HHI_Counties_2010 <- function() {
+A_SMSA_HHI_Counties_1980 <- function() {
   
   # Import data
   db <- conma()
