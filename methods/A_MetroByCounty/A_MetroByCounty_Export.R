@@ -14,6 +14,12 @@ A_MetroByCounty_Export <- function() {
   co$CBSAhhi_1980  <- 1 - co$CBSAhhi_1980
   co$CBSAhhi_2010  <- 1 - co$CBSAhhi_2010
   
+  co$CBSAhhico_1980  <- 1 - co$CBSAhhico_1980
+  co$CBSAhhico_2010  <- 1 - co$CBSAhhico_2010
+  
+  co$CBSAhhipl_1980  <- 1 - co$CBSAhhipl_1980
+  co$CBSAhhipl_2010  <- 1 - co$CBSAhhipl_2010
+  
   co$Deltahhi30y_1980  <-  co$Deltahhi30y_1980 * -1
   co$Deltahhi30y_2010  <-  co$Deltahhi30y_2010 * -1
   
