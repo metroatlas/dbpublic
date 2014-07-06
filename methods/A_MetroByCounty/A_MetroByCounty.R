@@ -44,7 +44,9 @@ A_MetroByCounty <- function() {
                "SMSAhhico",
                "SMSAhhipl",
                "SMSAplcount",
-               "SMSAplby10000")
+               "SMSAplby10000",
+               "COplcount",
+               "COplby10000")
   
   co1980 <- co1980[,to.keep]
   colnames(co1980) <- c("fipsstate",
@@ -57,7 +59,9 @@ A_MetroByCounty <- function() {
                         "CBSAhhico_1980",
                         "CBSAhhipl_1980",
                         "CBSAplcount_1980",
-                        "CBSAplby10000_1980")
+                        "CBSAplby10000_1980",
+                        "COplcount_1980",
+                        "COplby10000_1980")
 
   # Change fips code for Dade county, who changed FIPS from 12025 to 12086 in 1997
   co1980[co1980$fipsstate == "12" & co1980$fipscounty == "025",]$fipscounty  <- "086"

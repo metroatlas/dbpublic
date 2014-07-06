@@ -1,15 +1,19 @@
-# Count the number of incorporated places in a SMSA
+# Count the number of incorporated places by county
 
-A_SMSA_CountPlaces_1980 <- function() {
-
+A_CO_CountPlaces_1980 <- function() {
+  
   # Import data
   db <- conma()
   places    <- dbReadTable(db, "C_SF1_Places_1980")
   placelist <- dbReadTable(db, "C_PlaceList_1980")
   pcodes    <- dbReadTable(db, "C_PlacesVintageCodes")
-  smsa      <- dbReadTable(db, "A_SMSA_1980")
-  delin     <- dbReadTable(db, "C_MetroDelineations_1981")
+  co        <- dbReadTable(db, "A_SMSA_ByCounty_1980")
   dbDisconnect(db)
+  
+  #Get rid of the columns of they exist already
+  if("COplcount" %in% names(co)) {
+    co$COplcount  <- NULL
+  }
   
   # Get rid of Hawaii and Puerto Rico
   places <- places[places$STATEA != "15" & places$STATEA != "72", ]
@@ -36,7 +40,6 @@ A_SMSA_CountPlaces_1980 <- function() {
     }
   }
   
-  # Places with SMSA and population
   # Only Incorporated places
   places <- places[places$type == 1,]
   # Sort placelist by allocation factor to assign a place to the county where it has the most population
@@ -48,34 +51,25 @@ A_SMSA_CountPlaces_1980 <- function() {
   pl <- merge(places, placelist, by = c("fips", "placefp", "statefp"))
   
   # Clean the columns
-  pl <- pl[, c("fips","statefp","placefp","countyfp", "STATE", "countyname","placename.x","totalpop1980")]
-  colnames(pl)[4] <- "countyfips"
-  colnames(pl)[5] <- "statename"
-  colnames(pl)[7] <- "placename"
+  pl <- pl[, c("placefp","countyfp")]
+  colnames(pl)[2] <- "fips"
   
-  # Delineations of SMSA
-  delin$countyfips <- mapply(paste0, delin$statefp, delin$countyfp, MoreArgs = list(collapse = ""))
-  pl <- merge(pl, delin, by = "countyfips")
-  pl <- pl[, c("fips","statefp.x","placefp","countyfp", "statename", "countyname.x","placename","totalpop1980", "smsa")]
-  colnames(pl)[2] <- "statefp"
-  colnames(pl)[6] <- "countyname"
+  # Count places by county
+  pl.count <- aggregate(pl, by = list(pl$fips), FUN = length)[,c(1,2)]
+  colnames(pl.count) <- c("fips", "COplcount")
   
-  # Count places by SMSA
-  pl.count <- aggregate(pl, by = list(pl$smsa), FUN = length)[,c(1,2)]
-  colnames(pl.count) <- c("smsa", "SMSAplcount")
-  
-  # Merge the count into the SMSA dataframe
-  smsa <- merge(smsa, pl.count, by ="smsa", all.x = T)
+  # Merge the count back into the county dataframe
+  co <- merge(co, pl.count, by ="fips", all.x = T)
   
   # Replace missing values with zeros
-  smsa$SMSAplcount[is.na(smsa$SMSAplcount)]  <- 0
-  smsa$SMSAplcount <- as.integer(smsa$SMSAplcount)
+  co$COplcount[is.na(co$COplcount)]  <- 0
+  co$COplcount <- as.integer(co$COplcount)
   
   # Number of incorporated places by 10'000 inhabitants
-  smsa$SMSAplby10000 <- smsa$SMSAplcount / smsa$SMSApop * 10000
+  co$COplby10000 <- co$COplcount / co$totalpop1980 * 10000
   
   ####### WRITE TABLE ############
   db <- conma()
-  dbWriteTable(db, name="A_SMSA_1980", value=smsa, overwrite=TRUE)
+  dbWriteTable(db, name="A_SMSA_ByCounty_1980", value=co, overwrite=TRUE)
   dbDisconnect(db)
 }
