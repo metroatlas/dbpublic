@@ -1,15 +1,13 @@
 # Count the number of incorporated places in a CBSA
 
 A_CBSA_CountPlaces_2010 <- function() {
-  # Connect to database
-  db <- conma()
-  
+
   # Import data
+  db <- conma()
   places    <- dbReadTable(db, "C_SF1_Places_2010")
   delin     <- dbReadTable(db, "C_MetroDelineations_201302")
   placelist <- dbReadTable(db, "C_PlaceList_2010")
   cbsa      <- dbReadTable(db, "A_CBSA_2010")
-  
   dbDisconnect(db)
   
   # Get rid of Hawai and Puerto Rico
