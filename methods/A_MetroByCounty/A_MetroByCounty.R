@@ -77,7 +77,9 @@ A_MetroByCounty <- function() {
                "CBSAplby10000",
                "CBSApcpop",
                "CBSApcprop",
-               "CBSAzb")
+               "CBSAzb",
+               "COplcount",
+               "COplby10000")
   
   co2010 <- co2010[,to.keep]
   colnames(co2010) <- c("fipsstate",
@@ -94,7 +96,9 @@ A_MetroByCounty <- function() {
                         "CBSAplby10000_2010",
                         "CBSApcpop_2010",
                         "CBSApcprop_2010",
-                        "CBSAzb_2010")
+                        "CBSAzb_2010",
+                        "COplcount_2010",
+                        "COplby10000_2010")
   
   # Merge years
   co <- merge(co1950, co1980,
