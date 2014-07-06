@@ -11,6 +11,15 @@ A_SMSA_CountPlaces_1980 <- function() {
   delin     <- dbReadTable(db, "C_MetroDelineations_1981")
   dbDisconnect(db)
   
+  # Delete the column if it alread exists
+  if("SMSAplcount" %in% names(smsa)) {
+    smsa$SMSAplcount  <- NULL
+  }
+  
+  if("SMSAplby10000" %in% names(smsa)) {
+    smsa$SMSAplby10000  <- NULL
+  }
+  
   # Get rid of Hawaii and Puerto Rico
   places <- places[places$STATEA != "15" & places$STATEA != "72", ]
   placelist <- placelist[placelist$statefp != "15" & placelist$statefp != "72", ]
