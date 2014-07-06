@@ -118,6 +118,11 @@ A_MetroByCounty <- function() {
   co$Deltahhi30y_2010 <- co$CBSAhhi_2010 - co$CBSAhhi_1980
   co$Deltahhi30y_1980 <- co$CBSAhhi_1980 - co$CBSAhhi_1950
   
+  co$DeltaCOplcount_2010   <- co$COplcount_2010 - co$COplcount_1980
+  co$DeltaCOplby10000_2010 <- co$COplby10000_2010 - co$COplby10000_1980
+  co$DeltaCBSAplcount_2010   <- co$CBSAplcount_2010 - co$CBSAplcount_1980
+  co$DeltaCBSAplby10000_2010 <- co$CBSAplby10000_2010 - co$CBSAplby10000_1980
+  
   # Write table
   db <- conma()
   dbWriteTable(db, name="A_MetroByCounty", value=co, overwrite=TRUE)
