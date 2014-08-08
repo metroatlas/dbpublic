@@ -125,8 +125,13 @@ A_MetroByCounty <- function() {
   # Binary variable if part of a metro area
   
   co$CBSApart_1950 <- as.integer(!is.na(co$CBSAcode_1950))
+  co$CBSApart_1950[co$CBSApart_1950 == 0] <- NA
+  
   co$CBSApart_1980 <- as.integer(!is.na(co$CBSAcode_1980))
+  co$CBSApart_1980[co$CBSApart_1980 == 0] <- NA
+  
   co$CBSApart_2010 <- as.integer(!is.na(co$CBSAcode_2010))
+  co$CBSApart_2010[co$CBSApart_2010 == 0] <- NA
   
   # Compute delta variables
   co$Deltahhi30y_2010 <- co$CBSAhhi_2010 - co$CBSAhhi_1980
