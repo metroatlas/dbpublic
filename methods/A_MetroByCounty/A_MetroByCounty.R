@@ -81,6 +81,7 @@ A_MetroByCounty <- function() {
                "totalpop2010",
                "CBSACode",
                "CBSATitle",
+               "Type",
                "CBSApop",
                "CBSAhhi",
                "CBSAhhico",
@@ -100,6 +101,7 @@ A_MetroByCounty <- function() {
                         "countypop_2010",
                         "CBSAcode_2010",
                         "CBSAname_2010",
+                        "CBSAtype_2010",
                         "CBSApop_2010",
                         "CBSAhhi_2010",
                         "CBSAhhico_2010",
@@ -111,6 +113,28 @@ A_MetroByCounty <- function() {
                         "CBSAzb_2010",
                         "COplcount_2010",
                         "COplby10000_2010")
+  
+  
+  # Eliminate Micropolitan areas (10'000 to 49'999 inhabitants), 2010
+  # Only Metropolitan areas (50'000+ inhabitants) are comparable with other decennials
+  
+  to.na <- c("CBSAcode_2010",
+             "CBSAname_2010",
+             "CBSApop_2010",
+             "CBSAhhi_2010",
+             "CBSAhhico_2010",
+             "CBSAhhipl_2010",
+             "CBSAplcount_2010",
+             "CBSAplby10000_2010",
+             "CBSApcpop_2010",
+             "CBSApcprop_2010",
+             "CBSAzb_2010")
+  
+  for(v in to.na) {
+    co2010[!is.na(co2010$CBSAtype_2010) & co2010$CBSAtype_2010 == 0, v] <- NA
+  }
+  
+  co2010$CBSAtype_2010 <- NULL
   
   # Merge years
   co <- merge(co1950, co1980,
@@ -144,6 +168,7 @@ A_MetroByCounty <- function() {
   co$DeltaCBSAplby1000030y_1980 <- co$CBSAplby10000_1980 - co$CBSAplby10000_1950
   co$DeltaCBSAplcount30y_2010   <- co$CBSAplcount_2010 - co$CBSAplcount_1980
   co$DeltaCBSAplby1000030y_2010 <- co$CBSAplby10000_2010 - co$CBSAplby10000_1980
+  
   
   # Write table
   db <- conma()
