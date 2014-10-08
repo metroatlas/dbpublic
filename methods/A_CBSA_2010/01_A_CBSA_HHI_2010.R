@@ -63,7 +63,7 @@ A_CBSA_HHI_2010 <- function() {
               all = FALSE)
   
   co$HHI.cbsa <- (co$totalpop2010 / co$CBSApop.aggr)^2
-  co$MDPI.cbsa <- sqrt((co$totalpop2010 / co$CBSApop.aggr))
+  co$MPDI.cbsa <- sqrt((co$totalpop2010 / co$CBSApop.aggr))
   
   #Share of places
   pl <- merge(pl, cbsa.pop.aggr,
@@ -71,26 +71,26 @@ A_CBSA_HHI_2010 <- function() {
               all = FALSE)
   
   pl$HHI.cbsa <- (pl$totalpop2010 / pl$CBSApop.aggr)^2
-  pl$MDPI.cbsa <- sqrt((pl$totalpop2010 / pl$CBSApop.aggr))
+  pl$MPDI.cbsa <- sqrt((pl$totalpop2010 / pl$CBSApop.aggr))
   
   # Sums of squared shares
   plco.hhi  <- rbind(pl[,c("CBSACode", "HHI.cbsa")], co[,c("CBSACode", "HHI.cbsa")])
-  plco.mdpi <- rbind(pl[,c("CBSACode", "MDPI.cbsa")], co[,c("CBSACode", "MDPI.cbsa")])
+  plco.mpdi <- rbind(pl[,c("CBSACode", "MPDI.cbsa")], co[,c("CBSACode", "MPDI.cbsa")])
   
   # Consolidation index HHI by CBSA
   cbsa.hhi <- aggregate(plco.hhi$HHI.cbsa, by=list(plco.hhi$CBSACode), FUN=sum, na.rm=FALSE)
   names(cbsa.hhi)  <- c("CBSACode","CBSAhhi")
   
-  # Consolidation index MDPI by CBSA
-  cbsa.mdpi <- aggregate(plco.mdpi$MDPI.cbsa, by=list(plco.mdpi$CBSACode), FUN=sum, na.rm=FALSE)
-  names(cbsa.mdpi)  <- c("CBSACode","CBSAmdpi")
+  # Consolidation index MPDI by CBSA
+  cbsa.mpdi <- aggregate(plco.mpdi$MPDI.cbsa, by=list(plco.mpdi$CBSACode), FUN=sum, na.rm=FALSE)
+  names(cbsa.mpdi)  <- c("CBSACode","CBSAmpdi")
   
   # Total population of CBSA
   cbsa.pop <- aggregate(co$totalpop2010, by=list(co$CBSACode), FUN=sum, na.rm=FALSE)
   names(cbsa.pop)  <- c("CBSACode","CBSApop")
   
   cbsa <- merge(cbsa.pop, cbsa.hhi, by = "CBSACode")
-  cbsa <- merge(cbsa, cbsa.mdpi, by = "CBSACode")
+  cbsa <- merge(cbsa, cbsa.mpdi, by = "CBSACode")
   cbsa <- merge(cbsa, delin[,c("CBSACode", "CBSATitle", "Type")], by = "CBSACode")
   cbsa <- cbsa[!duplicated(cbsa$CBSACode), ]
   cbsa$Type <- as.integer(cbsa$Type)
