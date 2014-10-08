@@ -1,5 +1,6 @@
 # Computes the generalized Herfindahl-Hirschmann index of
 # concentration of political power in US metropolitan areas
+# and the Metropolitan Power Diffusion Index
 # for the 2010 census.
 
 A_CBSA_HHI_2010 <- function() {

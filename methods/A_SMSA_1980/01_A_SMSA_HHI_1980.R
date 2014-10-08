@@ -1,5 +1,6 @@
 # Computes the generalized Herfindahl-Hirschmann index of
 # concentration of political power in US metropolitan areas
+# and the Metropolitan Power Diffusion Index
 # for the 1980 census.
 
 A_SMSA_HHI_1980 <- function() {
@@ -81,6 +82,7 @@ A_SMSA_HHI_1980 <- function() {
               all = FALSE)
   
   co$HHI.smsa <- (co$totalpop1980 / co$SMSApop.aggr)^2
+  co$MPDI.smsa  <- sqrt(co$totalpop1980 / co$SMSApop.aggr)
   
   #Consolidation share of places
   pl <- merge(pl, smsa.pop.aggr,
@@ -88,21 +90,28 @@ A_SMSA_HHI_1980 <- function() {
               all = FALSE)
   
   pl$HHI.smsa <- (pl$totalpop1980 / pl$SMSApop.aggr)^2
+  pl$MPDI.smsa <- sqrt(pl$totalpop1980 / pl$SMSApop.aggr)
   
   # Sums of squared shares
-  plco <- rbind(pl[,c("smsa", "HHI.smsa")], co[,c("smsa", "HHI.smsa")])
+  plco.hhi <- rbind(pl[,c("smsa", "HHI.smsa")], co[,c("smsa", "HHI.smsa")])
+  plco.mpdi <- rbind(pl[,c("smsa", "MPDI.smsa")], co[,c("smsa", "MPDI.smsa")])
   
   # Consolidation index HHI by SMSA
-  smsa.hhi <- aggregate(plco$HHI.smsa, by=list(plco$smsa), FUN=sum, na.rm=FALSE)
+  smsa.hhi <- aggregate(plco.hhi$HHI.smsa, by=list(plco.hhi$smsa), FUN=sum, na.rm=FALSE)
   names(smsa.hhi)  <- c("smsa","SMSAhhi")
+  
+  # Consolidation index MPDI by SMSA
+  smsa.mpdi <- aggregate(plco.mpdi$MPDI.smsa, by=list(plco.mpdi$smsa), FUN=sum, na.rm=FALSE)
+  names(smsa.mpdi)  <- c("smsa","SMSAmpdi")
   
   # Total population of CBSA
   smsa.pop <- aggregate(co$totalpop1980, by=list(co$smsa), FUN=sum, na.rm=FALSE)
   names(smsa.pop)  <- c("smsa","SMSApop")
   
-  smsa.temp <- merge(smsa.pop, smsa.hhi, by = "smsa")
-  colnames(smsa) <- c("smsa", "scsa", "SMSAname")
-  smsa <- merge(smsa, smsa.temp, by = "smsa")
+  smsa <- merge(smsa, smsa.pop, by = "smsa")
+  smsa <- merge(smsa, smsa.hhi, by = "smsa")
+  smsa <- merge(smsa, smsa.mpdi, by = "smsa")
+  colnames(smsa)[3] <- "SMSAname"
   
   #smsa[smsa$SMSAhhi == 1, ]
   #plot(log(smsa$SMSApop), smsa$SMSAhhi, pch = 20)

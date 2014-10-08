@@ -51,6 +51,7 @@ A_MetroByCounty <- function() {
                "SMSAhhi",
                "SMSAhhico",
                "SMSAhhipl",
+               "SMSAmpdi",
                "SMSAplcount",
                "SMSAplby10000",
                "COplcount",
@@ -66,6 +67,7 @@ A_MetroByCounty <- function() {
                         "CBSAhhi_1980",
                         "CBSAhhico_1980",
                         "CBSAhhipl_1980",
+                        "CBSAmpdi_1980",
                         "CBSAplcount_1980",
                         "CBSAplby10000_1980",
                         "COplcount_1980",
@@ -165,6 +167,8 @@ A_MetroByCounty <- function() {
   # Compute delta variables
   co$Deltahhi30y_2010 <- co$CBSAhhi_2010 - co$CBSAhhi_1980
   co$Deltahhi30y_1980 <- co$CBSAhhi_1980 - co$CBSAhhi_1950
+  
+  co$Deltampdi30y_2010 <- co$CBSAmpdi_2010 - co$CBSAmpdi_1980
   
   co$DeltaCOplcount30y_2010   <- co$COplcount_2010 - co$COplcount_1980
   co$DeltaCOplby1000030y_2010 <- co$COplby10000_2010 - co$COplby10000_1980
