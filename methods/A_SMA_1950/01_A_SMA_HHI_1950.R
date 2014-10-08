@@ -1,5 +1,6 @@
 # Computes the generalized Herfindahl-Hirschmann index of
 # concentration of political power in US metropolitan areas
+# and the Metropolitan Power Diffusion Index
 # for the 1950 census.
 
 A_SMA_HHI_1950 <- function() {
@@ -46,27 +47,35 @@ A_SMA_HHI_1950 <- function() {
               by="sma",
               all = FALSE)
   
-  co$HHI.sma <- (co$totalpop1950 / co$smapop.aggr)^2
+  co$HHI.sma  <- (co$totalpop1950 / co$smapop.aggr)^2
+  co$MPDI.sma <- sqrt(co$totalpop1950 / co$smapop.aggr)
   
   #Consolidation share of places
   pl <- merge(pl, sma.pop.aggr,
               by="sma",
               all = FALSE)
   
-  pl$HHI.sma <- (pl$totalpop1950 / pl$smapop.aggr)^2
+  pl$HHI.sma  <- (pl$totalpop1950 / pl$smapop.aggr)^2
+  pl$MPDI.sma <- sqrt(pl$totalpop1950 / pl$smapop.aggr)
   
   # Sums of squared shares
-  plco <- rbind(pl[,c("sma", "HHI.sma")], co[,c("sma", "HHI.sma")])
+  plco.hhi  <- rbind(pl[,c("sma", "HHI.sma")], co[,c("sma", "HHI.sma")])
+  plco.mpdi <- rbind(pl[,c("sma", "MPDI.sma")], co[,c("sma", "MPDI.sma")])
   
   # Consolidation index HHI by SMA
-  sma.hhi <- aggregate(plco$HHI.sma, by=list(plco$sma), FUN=sum, na.rm=FALSE)
+  sma.hhi <- aggregate(plco.hhi$HHI.sma, by=list(plco.hhi$sma), FUN=sum, na.rm=FALSE)
   names(sma.hhi)  <- c("sma","smahhi")
+  
+  # Consolidation index MPDI by SMA
+  sma.mpdi <- aggregate(plco.mpdi$MPDI.sma, by=list(plco.mpdi$sma), FUN=sum, na.rm=FALSE)
+  names(sma.mpdi)  <- c("sma","smampdi")
   
   # Total population of SMA
   sma.pop <- aggregate(co$totalpop1950, by=list(co$sma), FUN=sum, na.rm=FALSE)
   names(sma.pop)  <- c("sma","smapop")
   
   sma <- merge(sma.pop, sma.hhi, by = "sma")
+  sma <- merge(sma, sma.mpdi, by = "sma")
   sma <- merge(sma, sma.names, by = "sma")
   
   #sma[sma$smahhi == 1, ]

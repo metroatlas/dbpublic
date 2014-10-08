@@ -21,6 +21,7 @@ A_MetroByCounty <- function() {
                "smahhi",
                "SMAhhico",
                "SMAhhipl",
+               "smampdi",
                "SMAplcount",
                "SMAplby10000")
   
@@ -34,6 +35,7 @@ A_MetroByCounty <- function() {
                         "CBSAhhi_1950",
                         "CBSAhhico_1950",
                         "CBSAhhipl_1950",
+                        "CBSAmpdi_1950",
                         "CBSAplcount_1950",
                         "CBSAplby10000_1950")
   
@@ -169,6 +171,7 @@ A_MetroByCounty <- function() {
   co$Deltahhi30y_1980 <- co$CBSAhhi_1980 - co$CBSAhhi_1950
   
   co$Deltampdi30y_2010 <- co$CBSAmpdi_2010 - co$CBSAmpdi_1980
+  co$Deltampdi30y_1980 <- co$CBSAmpdi_1980 - co$CBSAmpdi_1950
   
   co$DeltaCOplcount30y_2010   <- co$COplcount_2010 - co$COplcount_1980
   co$DeltaCOplby1000030y_2010 <- co$COplby10000_2010 - co$COplby10000_1980
